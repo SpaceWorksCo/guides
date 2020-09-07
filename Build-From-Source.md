@@ -1,6 +1,8 @@
 # Spacecoin Build From Source
 
-This guide will teach you how to run spacecoin by building from the source code.
+This guide will teach you how to run spacecoin by building from source.
+
+This guide is intended for Ubuntu 16.04/18.04.
 
 ## Table of Contents
 
