@@ -5,7 +5,7 @@ This guide will teach you how to setup a setup a proper Spacecoin staking node u
 ## Table of Contents
 
 - [Requirements](#Requirements)
-- [Install Komodo](#Install-Komodo)
+- [Install Spacecoin](#Install-Spacecoin)
 - [Setup Spacecoin](#Setup-Spacecoin)
 - [Install pos64staker](#Install-pos64staker)
 - [Setup pos64staker](#Setup-pos64staker)
@@ -27,7 +27,7 @@ This guide will teach you how to setup a setup a proper Spacecoin staking node u
 **Consider using small amounts of coins if it's your first time doing this process or using CLI commands.**
 
 
-### Install Komodo
+### Install Spacecoin
 
 SSH into your sever or open Terminal on your machine.
 
@@ -35,11 +35,11 @@ Install the needed dependencies:
 
 `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev`
 
-Clone and build komodo:
+Clone and build spacecoin:
 
 ```shell
-git clone https://github.com/komodoplatform/komodo --branch master --single-branch
-cd komodo
+git clone https://github.com/SpaceWorksCo/spacecoin --branch master --single-branch
+cd spacecoin
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(expr $(nproc) - 1)
 cd
@@ -47,9 +47,9 @@ cd
 
 ### Setup Spacecoin
 
-Navigate to the komodo/src directory:
+Navigate to the spacecoin/src directory:
 
-`cd komodo/src`
+`cd spacecoin/src`
 
 Start a new screen for spacecoin:
 
@@ -57,17 +57,17 @@ Start a new screen for spacecoin:
 
 Start spacecoin:
 
-`./komodod -ac_name=SPACE -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=165.227.35.158 -addnode=167.172.39.135`
+`./spacecoind`
 
-Here you will see all of the output from komodod as spacecoin starts up and syncs.
+Here you will see all of the output from spacecoind as spacecoin starts up and syncs.
 
 Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
 
-Use `./komodo-cli -ac_name=SPACE getnewaddress` to get a new Spacecoin address.
+Use `./spacecoin-cli getnewaddress` to get a new Spacecoin address.
 
 Fund your staking node by sending SPACE to this address.
 
-Use `./komodo-cli -ac_name=SPACE getinfo` to check info from the spacecoin daemon.
+Use `./spacecoin-cli getinfo` to check info from the spacecoin daemon.
 
 When `blocks` is equal to `longestchain` the blockchain is fully synced.
 
@@ -109,9 +109,9 @@ This will create a `list.json` file in the current directory (/home/pos64staker)
 
 **THIS FILE CONTAINS PRIVATE KEYS. KEEP IT SAFE. DO NOT SHARE**
 
-Copy the `list.json` file to the directory `komodod` is located:
+Copy the `list.json` file to the directory `spacecoind` is located:
 
-`cp list.json ~/komodo/src/list.json`
+`cp list.json ~/spacecoin/src/list.json`
 
 Open the `list.json` file so you can get your pubkey.
 
@@ -144,13 +144,13 @@ It will give an error if your entered amounts are more than your balance. It wil
 
 ### Launch Spacecoin
 
-Return to the `komodo/src` directory:
+Return to the `spacecoin/src` directory:
 
-`cd && cd komodo/src`
+`cd && cd spacecoin/src`
 
 Stop the running spacecoin daemon:
 
-`./komodo-cli -ac_name=SPACE stop`
+`./spacecoin-cli stop`
 
 Resume the spacecoin screen:
 
@@ -158,7 +158,7 @@ Resume the spacecoin screen:
 
 Restart the spacecoin chain with `-pubkey` and `-blocknotify` parameters:
 
-`./komodod -pubkey=<pubkey_from_list.json> -ac_name=SPACE -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=165.227.35.158 -addnode=167.172.39.135 '-blocknotify=/<path_to>/pos64staker/staker.py %s SPACE'`
+`./spacecoind -pubkey=<pubkey_from_list.json> '-blocknotify=/<path_to>/pos64staker/staker.py %s SPACE'`
 
 Make sure to replace `<pubkey_from_list.json>` with the pubkey you copied earlier from the list.json file.
 Example: `03edad710b86de3815c45cb16b152ae0c0f8d995f78dfbeca77e5201defde307dc`
@@ -170,7 +170,7 @@ Use `Ctrl + A` + `Ctrl + D` to exit the screen.
 
 Now, you just need to enable staking:
 
-`./komodo-cli -ac_name=SPACE setgenerate true 0`
+`./spacecoin-cli setgenerate true 0`
 
 
 ### Finish
@@ -179,17 +179,17 @@ At this point your spacecoin staking node should be setup and staking.
 
 To verify you are staking do:
 
-`./komodo-cli -ac_name=SPACE getgenerate`
+`./spacecoin-cli getgenerate`
 
 look for: `"staking": true,`
 
 For more staking info use:
 
-`./komodo-cli -ac_name=SPACE getbalance64`
+`./spacecoin-cli getbalance64`
 
 After some time of staking check your balance and you'll see it starting to grow:
 
-`./komodo-cli -ac_name=SPACE getinfo`
+`./spacecoin-cli getinfo`
 
 As you stake blocks and earn more coins, pos64staker will distribute the new coins each of your 64 segID addresses.
 

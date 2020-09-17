@@ -6,11 +6,11 @@ This guide is intended for Ubuntu 16.04/18.04.
 
 ## Table of Contents
 
-- [Install Komodo](#Install-Komodo)
+- [Install Spacecoin](#Install-Spacecoin)
 - [Run Spacecoin](#Run-Spacecoin)
 
 
-### Install Komodo
+### Install Spacecoin
 
 SSH into your sever or open Terminal on your machine.
 
@@ -18,11 +18,11 @@ Install the needed dependencies:
 
 `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqrencode-dev libdb++-dev ntp ntpdate nano software-properties-common curl libevent-dev libcurl4-gnutls-dev cmake clang libsodium-dev -y``
 
-Clone and build komodo:
+Clone and build spacecoin:
 
 ```shell
-git clone https://github.com/komodoplatform/komodo --branch master --single-branch
-cd komodo
+git clone https://github.com/SpaceWorksCo/spacecoin --branch master --single-branch
+cd spacecoin
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(expr $(nproc) - 1)
 cd
@@ -30,9 +30,9 @@ cd
 
 ### Run Spacecoin
 
-Navigate to the komodo/src directory:
+Navigate to the spacecoin/src directory:
 
-`cd komodo/src`
+`cd spacecoin/src`
 
 Start a new screen for spacecoin:
 
@@ -40,8 +40,8 @@ Start a new screen for spacecoin:
 
 Start spacecoin:
 
-`./komodod -ac_name=SPACE -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=165.227.35.158 -addnode=167.172.39.135`
+`./spacecoind`
 
-Here you will see all of the output from komodod as spacecoin starts up and syncs.
+Here you will see all of the output from spacecoind as spacecoin starts up and syncs.
 
 Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
