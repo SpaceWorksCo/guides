@@ -41,7 +41,7 @@ Clone and build spacecoin:
 git clone https://github.com/SpaceWorksCo/spacecoin --branch master --single-branch
 cd spacecoin
 ./zcutil/fetch-params.sh
-./zcutil/build.sh -j$(expr $(nproc) - 1)
+./zcutil/build.sh -j$(nproc)
 cd
 ```
 
