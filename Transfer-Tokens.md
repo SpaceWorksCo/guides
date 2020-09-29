@@ -22,7 +22,7 @@ All of the token methods can be viewed by running `help` or visiting the [Spacec
 You will need to specify the `tokenid` of the token you wish to transfer.
 Example: `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b`
 
-Tokens are transffered to a pubkey instead of a traditional SPACE address.
+Tokens are transffered to a `pubkey` instead of a traditional SPACE address.
 Example: `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`
 
 ### Instructions
@@ -32,7 +32,8 @@ Example: `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`
 2. Enter the command `tokentransfer tokenid destpubkey amount` replacing the fields with your desired information.
 
   Example: `tokentransfer e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00 9`
-This will transfer `9 SWTT` tokens to `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`.
+
+  This will transfer `9 SWTT` tokens to `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`.
 
   `tokentransfer` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
 
