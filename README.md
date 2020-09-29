@@ -1,9 +1,14 @@
 # Guides
 
-## Spacecoin
+#### Staking
 
-Check If You Are Staking: [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md)
+- [Setup A Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md)
+- [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md)
 
-Build From Source: [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md)
+#### Tokens
 
-Setup A Staking Node: [Setup Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md)
+- [Create A Token](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-Token.md)
+
+#### Other
+
+- [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md)

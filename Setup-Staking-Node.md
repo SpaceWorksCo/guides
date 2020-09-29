@@ -120,6 +120,8 @@ Open the `list.json` file so you can get your pubkey.
 
 Copy/paste the pubkey of the first segID to a txt file so you can use it later.
 
+Example of Pubkey: `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`
+
 Use `Ctrl + X` to exit the file.
 
 Distribute your Spacecoin to all 64 addresses:
