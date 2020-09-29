@@ -13,6 +13,10 @@ Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin
 
 ### Please Note
 
+Tokens require you to be using a pubkey. For more information see [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md).
+
+You will need SPACE in your wallet. `1 SPACE` should be enough.
+
 With Spacecoin-QT the commands will need to be entered in the console. This is accessible at `Help -> Debug Window -> Console`.
 
 All of the token methods can be viewed by running `help` or visiting the [Spacecoin RPC Docs](http://spacecoin-rpc.spaceworks.co).
