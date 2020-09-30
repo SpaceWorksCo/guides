@@ -45,9 +45,11 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokenorders [tokenid]` replacing the fields with your desired information.
 
   Example: `tokenorders e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b`
+
   This will return all orders for token `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b`.
 
   Example: `tokenorders`
+
   This will return all orders for all tokens.
 
 ### View My Orders
@@ -56,7 +58,7 @@ To see all orders for a token use `tokenorders`
 
 2. Enter the command `mytokenorders`.
 
-  This will return all of your pubkeys open orders for all tokens.
+  This will return all of your pubkey's open orders for all tokens.
 
 ### Place A Buy Order
 
@@ -65,6 +67,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokenbid numtokens tokenid price` replacing the fields with your desired information.
 
   Example: `tokenbid 393 e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 0.1`
+
   This will place a buy order for `393` of `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b` tokens with a price of `0.1 SPACE`.
 
   `tokenbid` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
@@ -82,6 +85,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokenask numtokens tokenid price` replacing the fields with your desired information.
 
   Example: `tokenask 393 e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 1`
+
   This will place a sell order for `393` of `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b` tokens with a price of `1 SPACE`.
 
   `tokenask` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
@@ -99,6 +103,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokencancelbid tokenid bidtxid` replacing the fields with your desired information.
 
     Example: `tokencancelbid e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb`
+
     This will cancel buy order `6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb` for token `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b`.
 
     `tokencancelbid` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
@@ -116,6 +121,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokencancelask tokenid asktxid` replacing the fields with your desired information.
 
     Example: `tokencancelask e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb`
+
     This will cancel sell order `6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb` for token `e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b`.
 
     `tokencancelask` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
@@ -133,6 +139,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokenfillask tokenid asktxid fillunits` replacing the fields with your desired information.
 
   Example: `tokenfillask e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb 93`
+
   This will buy `93 e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b` tokens from order `6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb`.
 
   `tokenfillask` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
@@ -150,6 +157,7 @@ To see all orders for a token use `tokenorders`
 2. Enter the command `tokenfillbid tokenid bidtxid fillunits` replacing the fields with your desired information.
 
   Example: `tokenfillbid e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b 6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb 93`
+
   This will sell `93 e6f7accda67f906f4e45449c44a28e968ceead98b7d7a8a22cda9282e73c782b` tokens to order `6053e01d5e19d2270148213542779ab78837cd9026048e6d6c51b5861a8f18fb`.
 
   `tokenfillbid` will return a hex-encoded transaction that needs to be broadcast to the network with `sendrawtransaction`.
