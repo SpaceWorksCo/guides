@@ -9,6 +9,7 @@
 
 - [Create A Token](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-Token.md)
 - [Transfer Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Transfer-Tokens.md)
+- [Trade Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Trade-Tokens.md)
 
 #### Other
 
