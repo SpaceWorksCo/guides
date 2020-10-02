@@ -15,7 +15,7 @@ A full resync can take some time to download and process all of the blocks.
 
 Never delete the `wallet.dat` file when deleting blockchain files.
 
-The `wallet.dat` which holds all of your addresses and private keys.
+The `wallet.dat` holds all of your addresses and private keys.
 
 ### Instructions
 
