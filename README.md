@@ -11,8 +11,12 @@
 - [Transfer Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Transfer-Tokens.md)
 - [Trade Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Trade-Tokens.md)
 
+#### Blockchain
+
+- [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md)
+- [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md)
+
 #### Other
 
 - [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md)
 - [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md)
-- [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md)
