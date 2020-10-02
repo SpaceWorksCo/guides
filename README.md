@@ -15,3 +15,4 @@
 
 - [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md)
 - [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md)
+- [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md)
