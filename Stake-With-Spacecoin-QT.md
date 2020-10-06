@@ -28,7 +28,7 @@ Example: `walletpassphrase "your passphrase" 3600`
 
 4. Click on the `stake` file in your `spacecoin-qt` folder.
 
-It will open and command prompt/terminal screen and then close.
+It will open a command prompt/terminal screen and then close.
 
 You can check to make sure you are staking with the [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md) guide.
 
