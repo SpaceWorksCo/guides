@@ -1,7 +1,8 @@
-# Guides
+# Spacecoin Guides
 
 #### Staking
 
+- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md)
 - [Setup A Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md)
 - [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md)
 
