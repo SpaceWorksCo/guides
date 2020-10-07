@@ -2,22 +2,22 @@
 
 #### Staking
 
-- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md)
-- [Setup A Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md)
-- [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md)
+- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md#stake-with-spacecoin-qt)
+- [Setup A Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md#spacecoin-staking-node)
+- [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md#check-if-you-are-staking)
 
 #### Tokens
 
-- [Create A Token](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-Token.md)
-- [Transfer Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Transfer-Tokens.md)
-- [Trade Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Trade-Tokens.md)
+- [Create A Token](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-Token.md#create-a-token)
+- [Transfer Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Transfer-Tokens.md#transfer-tokens)
+- [Trade Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Trade-Tokens.md#trade-tokens)
 
 #### Blockchain
 
-- [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md)
-- [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md)
+- [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md#find-data-directory)
+- [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md#resync-the-blockchain)
 
 #### Other
 
-- [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md)
-- [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md)
+- [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md#spacecoin-build-from-source)
+- [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md#pubkey-information)
