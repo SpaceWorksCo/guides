@@ -12,6 +12,11 @@
 - [Transfer Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Transfer-Tokens.md#transfer-tokens)
 - [Trade Tokens](https://github.com/SpaceWorksCo/guides/blob/master/Trade-Tokens.md#trade-tokens)
 
+#### Faucet
+
+- [Use The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Use-The-Faucet.md#use-the-faucet)
+- [Fund The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Fund-The-Faucet.md#fund-the-faucet)
+
 #### Blockchain
 
 - [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md#find-data-directory)
