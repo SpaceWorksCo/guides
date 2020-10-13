@@ -1,6 +1,6 @@
 # Generate Paper Wallet
 
-This guide will teach you how to check to generate a paper wallet.
+This guide will teach you how to generate a paper wallet.
 
 ## Table of Contents
 
