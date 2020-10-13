@@ -22,6 +22,11 @@
 - [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md#find-data-directory)
 - [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md#resync-the-blockchain)
 
+#### Paper Wallet
+
+- [Generate Paper Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Generate-Paper-Wallet.md#generate-paper-wallet)
+- [Import Paper Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Import-Paper-Wallet.md#import-paper-wallet)
+
 #### Other
 
 - [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md#spacecoin-build-from-source)
