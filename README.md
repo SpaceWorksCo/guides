@@ -31,4 +31,4 @@
 
 - [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md#spacecoin-build-from-source)
 - [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md#pubkey-information)
-- [Import AtomicDEX Seed](https://github.com/SpaceWorksCo/guides/blob/master/Import-AtomicDEX-Seed#import-atomicdex-seed)
+- [Import AtomicDEX Seed](https://github.com/SpaceWorksCo/guides/blob/master/Import-AtomicDEX-Seed.md#import-atomicdex-seed)
