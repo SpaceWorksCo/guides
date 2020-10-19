@@ -23,9 +23,9 @@ All of the token methods can be viewed by running `help` or visiting the [Spacec
 
 ### Background Information
 
-Determine the `name`, and `description` for your NFT.
+Determine the `name` and `description` for your NFT.
 
-The `supply` for NFT's will always be 1 satoshi.
+The `supply` for NFT's will always be 1 satoshi (0.00000001 SPACE).
 
 ### Instructions
 
