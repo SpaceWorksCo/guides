@@ -22,6 +22,7 @@
 
 - [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md#find-data-directory)
 - [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md#resync-the-blockchain)
+- [Bootstrap The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Bootstrap-The-Blockchain.md#bootstrap-the-blockchain)
 
 #### Paper Wallet
 
