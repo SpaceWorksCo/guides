@@ -15,7 +15,7 @@ If Spacecoind or Spacecoin-QT is already running, stop it before continuing.
 
 ### Instructions
 
-1. Download the SPACE blockchain bootstrap from [Dexstats.info](https://eu.bootstrap.dexstats.info/SPACE-bootstrap.tar.gz)
+1. Download the SPACE blockchain bootstrap from [Dexstats.info](https://dexstats.info/bootstrap.php). [Direct Link](https://eu.bootstrap.dexstats.info/SPACE-bootstrap.tar.gz)
 
 2. Extract `SPACE-bootstrap.tar.gz`.
 
@@ -29,4 +29,4 @@ If Spacecoind or Spacecoin-QT is already running, stop it before continuing.
 
 Your SPACE daemon should now finish syncing very quickly.
 
-If you found the bootstrap helpful, please consider donating to [Dexstats.info](https://dexstats.info) at `RQFwNuhJ5HP1QbfU2wLj8ZUse43LSKrzei`.
+If you found the bootstrap helpful, please consider donating to Dexstats at `RQFwNuhJ5HP1QbfU2wLj8ZUse43LSKrzei`.
