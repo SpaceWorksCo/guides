@@ -11,8 +11,6 @@ This is intended for [Spacecoind](https://github.com/spaceworksco/spacecoin) or 
 
 ### Please Note
 
-With Spacecoin-QT the commands will need to be entered in the console. This is accessible at `Help -> Debug Window -> Console`.
-
 If Spacecoind or Spacecoin-QT is already running, stop it before continuing.
 
 ### Instructions
