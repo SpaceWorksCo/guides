@@ -36,4 +36,4 @@ It will return:
 
 If you see `"staking": true,` then you are staking!
 
-If you see `"staking": false,` then you are not mining. Enable staking by entering the command `setgenerate true 0`.
+If you see `"staking": false,` then you are not staking. Enable staking by entering the command `setgenerate true 0`.
