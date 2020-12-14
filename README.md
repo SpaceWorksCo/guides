@@ -4,6 +4,7 @@
 
 - [Setup Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Spacecoin-QT.md#setup-spacecoin-qt)
 - [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md#stake-with-spacecoin-qt)
+- [Send Private Transactions With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Send-Private-Transactions-With-Spacecoin-QT.md#send-private-transactions-with-spacecoin-qt)
 
 #### Staking
 
