@@ -1,9 +1,14 @@
 # Spacecoin Guides
 
+#### Spacecoin-QT
+
+- [Setup Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Spacecoin-QT.md#setup-spacecoin-qt)
+- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md#stake-with-spacecoin-qt)
+
 #### Staking
 
-- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md#stake-with-spacecoin-qt)
 - [Setup A Staking Node](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md#spacecoin-staking-node)
+- [Stake With Spacecoin-QT](https://github.com/SpaceWorksCo/guides/blob/master/Stake-With-Spacecoin-QT.md#stake-with-spacecoin-qt)
 - [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md#check-if-you-are-staking)
 
 #### Tokens
