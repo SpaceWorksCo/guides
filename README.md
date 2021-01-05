@@ -34,6 +34,12 @@
 - [Use The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Use-The-Faucet.md#use-the-faucet)
 - [Fund The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Fund-The-Faucet.md#fund-the-faucet)
 
+#### AtomicDEX
+
+- [Setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop)
+- [Use AtomicDEX-Desktop As A Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet)
+- [Use AtomicDEX-Desktop For Trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading)
+
 #### Paper Wallet
 
 - [Generate Paper Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Generate-Paper-Wallet.md#generate-paper-wallet)
