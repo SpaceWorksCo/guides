@@ -39,6 +39,7 @@
 - [Setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop)
 - [Use AtomicDEX-Desktop As A Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet)
 - [Use AtomicDEX-Desktop For Trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading)
+- [Youtube Tutorial](https://www.youtube.com/watch?v=4LhGFbLAKHk)
 
 #### Paper Wallet
 
