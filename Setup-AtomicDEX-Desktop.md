@@ -15,13 +15,29 @@ For legal reasons, the DEX function in the official version is unavailable to us
 
 ### Instructions
 
-1. Navigate to [github.com/KomodoPlatform/atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases).
+1. Navigate to [github.com/KomodoPlatform/atomicDEX-Desktop/releases](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases).
 
-2. Scroll down to `Assets` and download atomicDEX-Desktop for you desired platform. For Windows/Mac, both installer and portable versions are available.
+![Github](/images/atomicdex_setup_github.png)
 
-3. Run the downloaded file. If you downloaded the installer version, follow the `AtomicDEX-Desktop Installer Setup` to install on your system and then open.
+2. Scroll down to `Assets`.
 
-5. Once AtomicDEX-Desktop starts select `New Wallet` and complete the steps to setup your wallet.
+![Assets](/images/atomicdex_setup_assets.png)
+
+3. Download atomicDEX-Desktop for you desired platform. For Windows/Mac, both installer and portable versions are available.
+
+![Download](/images/atomicdex_setup_download.png)
+
+4. Run the downloaded file. If you downloaded the installer version, follow the `AtomicDEX-Desktop Installer Setup` to install on your system and then open.
+
+![Run](/images/atomicdex_setup_run.png)
+
+5. Once AtomicDEX-Desktop starts select `New Wallet`.
+
+![New wallet](/images/atomicdex_setup_new_wallet.png)
+
+6. Complete the steps to setup your wallet.
+
+![New wallet Setup](/images/atomicdex_setup_new_wallet_page.png)
 
 It is extremely important to backup your seed! It can be used to recover your wallet at any point in the future.
 
