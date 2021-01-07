@@ -19,22 +19,22 @@ A trade(swap) is comprised of multiple transactions and can take a few minutes t
 
 ### Instructions
 
-Open AtomicDEX-Desktop and login to your wallet.
+1. Open AtomicDEX-Desktop and login to your wallet.
 
-Click on the `Wallet` page from the menu on the left side.
+2. Click on the `Wallet` page from the menu on the left side.
 
-Click on the `+` button to open the coin list.
+3. Click on the `+` button to open the coin list.
 
-Select the coins you would like to trade and click `Enable`.
+4. Select the coins you would like to trade and click `Enable`.
 
-Click on the `DEX` page from the menu on the left side.
+5. Click on the `DEX` page from the menu on the left side.
 
-Select the 2 coins you would like to trade. Ex: SPACE/BTC
+6. Select the 2 coins you would like to trade. Ex: SPACE/BTC, SPACE/KMD, KMD/BTC, KMD/ZEC. All trading pairs are possible.
 
-Click on any existing orders in the orderbook or input your own `Price` and `Volume` values on the right side.
+7. Click on any existing orders in the orderbook or input your own `Price` and `Volume` values on the right side.
 
-Click on `Start Swap` to start your trade.
+8. Click on `Start Swap` to start your trade.
+
+You are now performing decentralized atomic swaps!
 
 You can check the progress of your ongoing trades by clicking on the `Orders` tab at the top of the DEX page.
-
-You are now ready to start trading!
