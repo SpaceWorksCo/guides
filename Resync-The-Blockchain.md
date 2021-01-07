@@ -29,4 +29,4 @@ For a faster resync, take a look at the [Bootstrap The Blockchain](https://githu
 
 4. Open/start your spacecoin wallet.
 
-4. Let the blockchain sync.
+5. Let the blockchain sync.
