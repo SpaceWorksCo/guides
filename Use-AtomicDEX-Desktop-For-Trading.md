@@ -40,7 +40,7 @@ It is assumed that you have already [setup AtomicDEX-Desktop](https://github.com
 ![DEX](/images/atomicdex_dex.png)
 
 6. Select the 2 coins you would like to trade. All trading pairs are possible.
-`SPACE/BTC`, `SPACE/KMD`, `KMD/BTC`, `KMD/ZEC`
+`SPACE/BTC`, `SPACE/KMD`, `KMD/BTC`, `KMD/ZEC`, `DOGE/DASH` etc.
 
 ![Coins](/images/atomicdex_coins.png)
 
