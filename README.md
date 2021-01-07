@@ -18,6 +18,7 @@
 #### Blockchain
 
 - [Find Data Directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md#find-data-directory)
+- [Rewind The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Rewind-The-Blockchain.md#rewind-the-blockchain)
 - [Resync The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md#resync-the-blockchain)
 - [Bootstrap The Blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Bootstrap-The-Blockchain.md#bootstrap-the-blockchain)
 - [Get Coin Supply](https://github.com/SpaceWorksCo/guides/blob/master/Get-Coin-Supply.md#get-coin-supply)
