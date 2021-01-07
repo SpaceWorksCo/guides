@@ -15,16 +15,14 @@ For legal reasons, the DEX function in the official version is unavailable to us
 
 ### Instructions
 
-Navigate to [github.com/KomodoPlatform/atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases).
+1. Navigate to [github.com/KomodoPlatform/atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases).
 
-Scroll down to `Assets` and download atomicDEX-Desktop for you desired platform. For Windows/Mac, both installer and portable versions are available.
+2. Scroll down to `Assets` and download atomicDEX-Desktop for you desired platform. For Windows/Mac, both installer and portable versions are available.
 
-Run the downloaded file.
+3. Run the downloaded file. If you downloaded the installer version, follow the `AtomicDEX-Desktop Installer Setup` to install on your system and then open.
 
-If you downloaded the installer version, follow the `AtomicDEX-Desktop Installer Setup` to install on your system and then open.
+5. Once AtomicDEX-Desktop starts select `New Wallet` and complete the steps to setup your wallet.
 
-Once AtomicDEX-Desktop is running, select `New Wallet` and complete the steps to setup your wallet.
+It is extremely important to backup your seed! It can be used to recover your wallet at any point in the future.
 
-It is extremely important to backup your seed. It can be used to recover your wallet at any point in the future.
-
-You are now setup! Login to your wallet to start sending/receiving coins and trading.
+You are now setup! Login to your wallet to start [sending/receiving](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet) coins and [trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading).
