@@ -58,6 +58,8 @@ For your orders to remain in the orderbook and available to others, AtomicDEX mu
 
 Your order is now providing liquidity on AtomicDEX!
 
+Leave AtomicDEX running to keep your orders in the orderbook.
+
 You can continue to place more orders.
 
 Check on your orders by clicking on the `Orders` tab at the top of the DEX page.
