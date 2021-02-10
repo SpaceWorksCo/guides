@@ -39,19 +39,25 @@ For your orders to remain in the orderbook and available to others, AtomicDEX mu
 
 ![DEX](/images/atomicdex_dex.png)
 
-6. Select the 2 coins you would like to provide liquidity for. All pairs are possible and need liquidity.
+6. Select the 2 coins you would like to provide liquidity for.
+
+  All pairs are possible and need liquidity.
 `SPACE/BTC`, `SPACE/KMD`, `KMD/BTC`, `KMD/ZEC`, `DOGE/DASH` etc.
 
 ![Coins](/images/atomicdex_coins.png)
 
 7. Input your `Price` and `Volume` values on the right side.
 
+  In the screenshot, `Price` is the price in KMD for 1 SPACE and `Volume` is the amount of SPACE to sell.
+
 ![Order](/images/atomicdex_order2.png)
 
 8. Click on `Start Swap` to place your order.
 
-![Swap](/images/atomicdex_swap.png)
+![Swap](/images/atomicdex_swap2.png)
 
-Your orders are now providing liquidity on AtomicDEX!
+Your order is now providing liquidity on AtomicDEX!
 
-You can check on your orders by clicking on the `Orders` tab at the top of the DEX page.
+You can continue to place more orders.
+
+Check on your orders by clicking on the `Orders` tab at the top of the DEX page.
