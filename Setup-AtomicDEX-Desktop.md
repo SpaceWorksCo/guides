@@ -23,7 +23,7 @@ For legal reasons, the DEX function in the official version is unavailable to us
 
 ![Assets](/images/atomicdex_setup_assets.png)
 
-3. Download atomicDEX-Desktop for you desired platform. For Windows/Mac, both installer and portable versions are available.
+3. Download atomicDEX-Desktop for your platform. On Windows/Mac, both installer and portable versions are available.
 
 ![Download](/images/atomicdex_setup_download.png)
 
