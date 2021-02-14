@@ -41,4 +41,4 @@ For legal reasons, the DEX function in the official version is unavailable to us
 
 It is extremely important to backup your seed! It can be used to recover your wallet at any point in the future.
 
-You are now setup! Login to your wallet to start [sending/receiving](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet) coins and [trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading).
+You are now setup! Login to your wallet to start [sending/receiving](Use-AtomicDEX-Desktop-As-A-Wallet.md) coins and [trading](Use-AtomicDEX-Desktop-For-Trading.md).

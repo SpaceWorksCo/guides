@@ -2,7 +2,7 @@
 
 This guide will teach you how to create a token on the SPACE blockchain.
 
-To create a Non Fungible Token (NFT) see [Create A NFT](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-NFT.md#create-a-nft).
+To create a Non Fungible Token (NFT) see [Create A NFT](Create-A-NFT.md).
 
 Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
 
@@ -15,7 +15,7 @@ Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin
 
 ### Please Note
 
-Tokens require you to be using a pubkey. For more information see [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md).
+Tokens require you to be using a pubkey. For more information see [Pubkey Information](Pubkey-Information.md).
 
 You will need SPACE in your wallet. `1 SPACE` should be enough.
 

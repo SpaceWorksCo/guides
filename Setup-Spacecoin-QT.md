@@ -11,7 +11,7 @@ This guide will teach you how to setup the Spacecoin-QT wallet for your desired 
 
 Spacecoin-QT is a full node wallet, meaning it will need to download the entire blockchain before being used to send transactions or stake.
 
-To speed up the blockchain sync time, you can use the [Blockchain Boostrap Guide](https://github.com/SpaceWorksCo/guides/blob/master/Bootstrap-The-Blockchain.md#bootstrap-the-blockchain).
+To speed up the blockchain sync time, you can use the [Blockchain Boostrap Guide](Bootstrap-The-Blockchain.md).
 
 If you're looking for a lite wallet without the blockchain download, try [Spacecoin Electrum](https://spaceworks.co/spacecoin/wallets/#spacecoin-electrum).
 

@@ -4,11 +4,11 @@ This guide will teach you how to build [Spacecoin (SPACE)](https://spaceworks.co
 
 ## Table of Contents
 
-- [Build Spacecoin](#Build-Spacecoin)
+  - [Build Spacecoin](#Build-Spacecoin)
   - [Linux](#Linux)
   - [Mac](#Mac)
   - [Windows](#Windows)
-- [Run Spacecoin](#Run-Spacecoin)
+  - [Run Spacecoin](#Run-Spacecoin)
 
 
 ### Build Spacecoin

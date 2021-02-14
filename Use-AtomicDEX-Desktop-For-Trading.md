@@ -15,7 +15,7 @@ For legal reasons, the DEX function in the official version is unavailable to us
 
 A trade/swap is comprised of multiple transactions and can take a few minutes to complete.
 
-It is assumed that you have already [setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop) and have coins in your [wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet) to trade.
+It is assumed that you have already [setup AtomicDEX-Desktop](Setup-AtomicDEX-Desktop.md) and have coins in your [wallet](Use-AtomicDEX-Desktop-As-A-Wallet.md) to trade.
 
 ### Instructions
 

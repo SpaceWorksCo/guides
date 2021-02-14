@@ -30,7 +30,7 @@ Example: `walletpassphrase "your passphrase" 3600`
 
 It will open a command prompt/terminal screen and then close.
 
-You can check to make sure you are staking with the [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md) guide.
+You can check to make sure you are staking with the [Check If You Are Staking](Check-If-You-Are-Staking.md) guide.
 
 ### Option 2
 
@@ -44,4 +44,4 @@ You can check to make sure you are staking with the [Check If You Are Staking](h
 
 5. Enter the command `setgenerate true 0`.
 
-You can check to make sure you are staking with the [Check If You Are Staking](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md) guide.
+You can check to make sure you are staking with the [Check If You Are Staking](Check-If-You-Are-Staking.md) guide.

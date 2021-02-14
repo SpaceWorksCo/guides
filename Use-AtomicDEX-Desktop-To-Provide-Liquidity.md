@@ -13,7 +13,7 @@ AtomicDEX is a multicoin lite wallet, as well as a decentralized exchange that u
 
 For legal reasons, the DEX function in the official version is unavailable to users in `USA, Canada, Hong Kong, Israel, Singapore, Sudan, Austria, and Iran`. There is a version that removes this geoblock that is maintained [here](https://github.com/marmarachain/atomicdex-desktop/releases).
 
-It is assumed that you have already [setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop) and have coins in your [wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet) to trade.
+It is assumed that you have already [setup AtomicDEX-Desktop](Setup-AtomicDEX-Desktop.md) and have coins in your [wallet](Use-AtomicDEX-Desktop-As-A-Wallet.md) to trade.
 
 For your orders to remain in the orderbook and available to others, AtomicDEX must remain running.
 

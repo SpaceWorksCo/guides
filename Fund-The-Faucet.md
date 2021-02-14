@@ -13,7 +13,7 @@ The faucet is available with [Spacecoind](https://github.com/spaceworksco/spacec
 
 ### Please Note
 
-The faucet requires you to be using a pubkey. For more information see [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md).
+The faucet requires you to be using a pubkey. For more information see [Pubkey Information](Pubkey-Information.md).
 
 With Spacecoin-QT the commands will need to be entered in the console. This is accessible at `Help -> Debug Window -> Console`.
 

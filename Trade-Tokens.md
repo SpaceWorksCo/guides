@@ -20,7 +20,7 @@ Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin
 
 ### Please Note
 
-Tokens require you to be using a pubkey. For more information see [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md).
+Tokens require you to be using a pubkey. For more information see [Pubkey Information](Pubkey-Information.md).
 
 You will need SPACE in your wallet.
 

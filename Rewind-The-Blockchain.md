@@ -13,7 +13,7 @@ This applies to both [Spacecoind](https://github.com/spaceworksco/spacecoin) and
 
 When rewinding, make sure you choose a block a bit before the block when your error occurred.
 
-Certain times a rewind will fail and you will need to [resync the blockchain](https://github.com/SpaceWorksCo/guides/blob/master/Resync-The-Blockchain.md#resync-the-blockchain).
+Certain times a rewind will fail and you will need to [resync the blockchain](Resync-The-Blockchain.md).
 
 ### Instructions
 

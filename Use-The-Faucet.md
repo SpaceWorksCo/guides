@@ -13,7 +13,7 @@ The faucet is available with [Spacecoind](https://github.com/spaceworksco/spacec
 
 ### Please Note
 
-The faucet requires you to be using a pubkey. For more information see [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md).
+The faucet requires you to be using a pubkey. For more information see [Pubkey Information](Pubkey-Information.md).
 
 With Spacecoin-QT the commands will need to be entered in the console. This is accessible at `Help -> Debug Window -> Console`.
 
@@ -24,7 +24,7 @@ To receive coins your public address must satisfy a few constraints. The wallet'
 
 The call also requires the wallet to perform a small PoW calculation. This requires about 30 seconds of CPU time and is done to deter leeching.
 
-When `faucetget` is executed, the on-chain faucet sends 0.1 SPACE to the address that corresponds to the wallet's pubkey. This is enough SPACE to start testing and even [create a token](https://github.com/SpaceWorksCo/guides/blob/master/Create-A-Token.md#create-a-token)
+When `faucetget` is executed, the on-chain faucet sends 0.1 SPACE to the address that corresponds to the wallet's pubkey. This is enough SPACE to start testing and even [create a token](Create-A-Token.md)
 
 
 ### Instructions

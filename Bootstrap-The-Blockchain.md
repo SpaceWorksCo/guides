@@ -21,7 +21,7 @@ If Spacecoind or Spacecoin-QT is already running, stop it before continuing.
 
 3. Enter the extracted folder and copy the `blocks` and `chainstate` folders.
 
-4. Navigate to your SPACE [data directory](https://github.com/SpaceWorksCo/guides/blob/master/Find-Data-Directory.md).
+4. Navigate to your SPACE [data directory](Find-Data-Directory.md).
 
 5. Paste the folders in the data directory, replacing the existing `blocks` and `chainstate` folders.
 

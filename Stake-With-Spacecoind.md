@@ -25,4 +25,4 @@ Example: `spacecoin-cli walletpassphrase "your passphrase" 3600`
 
 3. Run `spacecoin-cli setgenerate true 0`.
 
-You can check to make sure you are staking with `spacecoin-cli getgenerate`. [(Guide)](https://github.com/SpaceWorksCo/guides/blob/master/Check-If-You-Are-Staking.md)
+You can check to make sure you are staking with `spacecoin-cli getgenerate`. [(Guide)](Check-If-You-Are-Staking.md)

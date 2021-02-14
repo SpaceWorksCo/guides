@@ -11,7 +11,7 @@ This guide will teach you how to use AtomicDEX-Desktop as a wallet.
 
 AtomicDEX is a multicoin lite wallet, as well as a decentralized exchange that utilizes atomic swaps.
 
-It is assumed that you have already [setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop).
+It is assumed that you have already [setup AtomicDEX-Desktop](Setup-AtomicDEX-Desktop.md).
 
 ### Instructions
 
@@ -43,4 +43,4 @@ It is assumed that you have already [setup AtomicDEX-Desktop](https://github.com
 
 ![Send](/images/atomicdex_send.png)
 
-You are ready to start sending/receiving coins and [trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading)!
+You are ready to start sending/receiving coins and [trading](Use-AtomicDEX-Desktop-For-Trading.md)!
