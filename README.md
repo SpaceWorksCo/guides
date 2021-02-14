@@ -1,4 +1,5 @@
-# Spacecoin Guides
+## Spacecoin
+------------
 
 #### Spacecoin-QT
 
@@ -35,14 +36,6 @@
 - [Use The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Use-The-Faucet.md#use-the-faucet)
 - [Fund The Faucet](https://github.com/SpaceWorksCo/guides/blob/master/Fund-The-Faucet.md#fund-the-faucet)
 
-#### AtomicDEX
-
-- [Setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop)
-- [Use AtomicDEX-Desktop As A Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet)
-- [Use AtomicDEX-Desktop For Trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading)
-- [Use AtomicDEX-Desktop To Provide Liquidity](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-To-Provide-Liquidity.md#use-atomicDEX-desktop-to-provide-liquidity)
-- [Youtube Tutorial](https://www.youtube.com/watch?v=4LhGFbLAKHk)
-
 #### Paper Wallet
 
 - [Generate Paper Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Generate-Paper-Wallet.md#generate-paper-wallet)
@@ -53,3 +46,18 @@
 - [Build From Source](https://github.com/SpaceWorksCo/guides/blob/master/Build-From-Source.md#build-from-source)
 - [Pubkey Information](https://github.com/SpaceWorksCo/guides/blob/master/Pubkey-Information.md#pubkey-information)
 - [Import AtomicDEX Seed](https://github.com/SpaceWorksCo/guides/blob/master/Import-AtomicDEX-Seed.md#import-atomicdex-seed)
+
+
+## AtomicDEX
+------------
+
+#### AtomicDEX-Desktop
+
+- [Setup AtomicDEX-Desktop](https://github.com/SpaceWorksCo/guides/blob/master/Setup-AtomicDEX-Desktop.md#setup-atomicDEX-desktop)
+- [Use AtomicDEX-Desktop As A Wallet](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-As-A-Wallet.md#use-atomicDEX-desktop-as-a-wallet)
+- [Use AtomicDEX-Desktop For Trading](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-For-Trading.md#use-atomicDEX-desktop-for-trading)
+- [Use AtomicDEX-Desktop To Provide Liquidity](https://github.com/SpaceWorksCo/guides/blob/master/Use-AtomicDEX-Desktop-To-Provide-Liquidity.md#use-atomicDEX-desktop-to-provide-liquidity)
+
+#### AtomicDEX -API
+
+- [Build AtomicDEX-API For Pi4](Build-AtomicDEX-API-For-Pi4.md)
