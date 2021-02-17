@@ -46,6 +46,7 @@
 - [Build From Source](Build-From-Source.md)
 - [Pubkey Information](Pubkey-Information.md)
 - [Import AtomicDEX Seed](Import-AtomicDEX-Seed.md)
+- [Claim Crossword Puzzle Funds](Claim-Crossword-Puzzle-Funds.md)
 
 
 ## AtomicDEX
