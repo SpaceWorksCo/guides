@@ -15,7 +15,9 @@ For staking to work the wallet needs to be unlocked. If you encrypted your walle
 
 Example: `spacecoin-cli walletpassphrase "your passphrase" 3600`
 
-`3600` is the time in seconds the wallet will stay unlocked before locking again. This means you will need to unlock it again after this amount of time to continue staking.
+`3600` is the time in seconds the wallet will stay unlocked before locking again. This means you will need to unlock it again after this specified amount of time to continue staking.
+
+The wallet must stay open and online to be able to stake.
 
 ### Instructions
 
