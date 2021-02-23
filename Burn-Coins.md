@@ -1,6 +1,6 @@
-# Run Spacecoin
+# Burn Coins
 
-This guide will teach you how to burn Spacecoin.
+This guide will teach you how to burn Spacecoin or tokens.
 
 ## Table of Contents
 

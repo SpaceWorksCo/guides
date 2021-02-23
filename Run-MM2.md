@@ -6,10 +6,6 @@ This guide will teach you how to run mm2.
 
   - [Please Note](#Please-Note)
   - [Instructions](#Instructions)
-      - [Coins File](#Coins-File)
-      - [Userpass](#Userpass)
-      - [Seed](#Seed)
-      - [Start](#Start)
 
 ### Please Note
 
