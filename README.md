@@ -3,7 +3,6 @@
 Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 ## Spacecoin
-------------
 
 #### Spacecoin-QT
 
@@ -12,6 +11,15 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 - [Send Private Transactions With Spacecoin-QT](Send-Private-Transactions-With-Spacecoin-QT.md)
 - [Import A Private Key](Import-A-Private-Key.md)
 - [Export A Private Key](Export-A-Private-Key.md)
+- [Build Spacecoin-QT From Source](Build-Spacecoin-QT-From-Source.md)
+
+#### Spacecoin (Command Line)
+
+- [Build Spacecoin From Source](Build-Spacecoin-From-Source.md)
+- [Run Spacecoin](Run-Spacecoin.md)
+- [Run Spacecoin With Komodo](Run-Spacecoin-With-Komodo.md)
+- [Run Spacecoin With Docker](Run-Spacecoin-With-Docker.md)
+- [Interact with Spacecoin](Interact-With-Spacecoin.md)
 
 #### Staking
 
@@ -26,7 +34,6 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 - [Rewind The Blockchain](Rewind-The-Blockchain.md)
 - [Resync The Blockchain](Resync-The-Blockchain.md)
 - [Bootstrap The Blockchain](Bootstrap-The-Blockchain.md)
-- [Get Coin Supply](Get-Coin-Supply.md)
 
 #### Tokens
 
@@ -47,14 +54,13 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 #### Other
 
-- [Build From Source](Build-From-Source.md)
 - [Pubkey Information](Pubkey-Information.md)
 - [Import AtomicDEX Seed](Import-AtomicDEX-Seed.md)
 - [Claim Crossword Puzzle Funds](Claim-Crossword-Puzzle-Funds.md)
-
+- [Get Coin Supply](Get-Coin-Supply.md)
+- [Burn Coins](Burn-Coins.md)
 
 ## AtomicDEX
-------------
 
 #### AtomicDEX-Desktop
 
@@ -66,5 +72,7 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 #### AtomicDEX -API
 
 - [Build MM2 On Ubuntu](Build-MM2-On-Ubuntu.md)
-- [Build MM2 For Pi4](Build-MM2-For-Pi4.md)
+- [Build MM2 For Pi4 -- WIP](Build-MM2-For-Pi4.md)
 - [Download MM2 Binary](Download-MM2-Binary.md)
+- [Setup MM2](Setup-MM2.md)
+- [Run MM2](Run-MM2.md)
