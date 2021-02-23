@@ -1,4 +1,4 @@
-# Build MM2 for Pi4
+# Build MM2 for Pi4 -- WIP
 
 This guide will teach you how to build mm2 for Pi4.
 
