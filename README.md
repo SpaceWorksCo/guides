@@ -42,6 +42,13 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 - [Transfer Tokens](Transfer-Tokens.md)
 - [Trade Tokens](Trade-Tokens.md)
 
+#### Heir
+
+- [Create A Fund](Create-A-Fund.md)
+- [Get Info About A Fund](Get-Info-About-A-Fund.md)
+- [Add To A Fund](Add-To-A-Fund.md)
+- [Claim From A Fund](Claim-From-A-Fund.md)
+
 #### Faucet
 
 - [Use The Faucet](Use-The-Faucet.md)
