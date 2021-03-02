@@ -69,10 +69,14 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 - [Use AtomicDEX-Desktop For Trading](Use-AtomicDEX-Desktop-For-Trading.md)
 - [Use AtomicDEX-Desktop To Provide Liquidity](Use-AtomicDEX-Desktop-To-Provide-Liquidity.md)
 
-#### AtomicDEX -API
+#### AtomicDEX-API
 
 - [Build MM2 On Ubuntu](Build-MM2-On-Ubuntu.md)
 - [Build MM2 For Pi4 -- WIP](Build-MM2-For-Pi4.md)
 - [Download MM2 Binary](Download-MM2-Binary.md)
 - [Setup MM2](Setup-MM2.md)
 - [Run MM2](Run-MM2.md)
+
+#### Tools
+
+- [Use Cipi's mmtools For MarketMaking](Use-cipi's-mmtools-For-Marketmaking.md)
