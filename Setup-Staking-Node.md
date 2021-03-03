@@ -60,7 +60,7 @@ This guide will teach you how to setup a setup a proper Spacecoin staking node u
 
     `./spacecoind`
 
-Here you will see all of the output from spacecoind as spacecoin starts up and syncs.
+    Here you will see all of the output from spacecoind as spacecoin starts up and syncs.
 
 4. Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
 
@@ -106,9 +106,9 @@ Also check `balance` is greater than 0.
 
     `Please specify chain:SPACE`
 
-This will create a `list.json` file in the current directory (/home/pos64staker).
+    This will create a `list.json` file in the current directory (/home/pos64staker).
 
-**THIS FILE CONTAINS PRIVATE KEYS. KEEP IT SAFE. DO NOT SHARE**
+    **THIS FILE CONTAINS PRIVATE KEYS. KEEP IT SAFE. DO NOT SHARE**
 
 3. Copy the `list.json` file to the directory `spacecoind` is located:
 
@@ -199,16 +199,16 @@ As you stake blocks and earn more coins, pos64staker will distribute the new coi
 
 ### Next Time
 
-If you stop spacecoin at all for updates, machine reboot, etc. simply follow the steps from [Launch Spacecoin](#Launch-Spacecoin) to start staking again!
+    If you stop spacecoin at all for updates, machine reboot, etc. simply follow the steps from [Launch Spacecoin](#Launch-Spacecoin) to start staking again!
 
 
 ### Withdraw
 
-If you'd like to withdraw funds from a staking node without messing up the 64 segID distribution, do:
+    If you'd like to withdraw funds from a staking node without messing up the 64 segID distribution, do:
 
-    ```shell
+    ```
     cd && cd pos64staker
     ./withdraw.py
     ```
 
-It will walk you through the withdraw process.
+    It will walk you through the withdraw process.

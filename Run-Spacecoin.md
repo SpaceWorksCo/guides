@@ -29,8 +29,10 @@ The instructions use the program `screen` to keep the process running in the bac
 
     `./spacecoind`
 
-Here you will see all of the output from spacecoind as it starts up and syncs.
+    Here you will see all of the output from spacecoind as it starts up and syncs.
 
-Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
+5. Use `Ctrl + A` + `Ctrl + D` to exit the screen.
+
+    You can return to it at any point with `screen -r spacecoin`.
 
 You can now use `spacecoin-cli` to interact with the daemon.

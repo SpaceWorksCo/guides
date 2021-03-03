@@ -24,22 +24,22 @@ If it is not, you can:
 
     `cd spacecoin/src`
 
-Here you will find `spacecoin-cli`, which you can use to enter commands.
+3. Enter a command with `spacecoin-cli`:
 
-To get info about Spacecoin:
+- To get info about Spacecoin:
 
-`./spacecoin-cli getinfo`
+    `./spacecoin-cli getinfo`
 
-To get a Spacecoin address:
+- To get a Spacecoin address:
 
-`./spacecoin-cli getnewaddress`
+    `./spacecoin-cli getnewaddress`
 
-To get a Spacecoin private address:
+- To get a Spacecoin private address:
 
-`./spacecoin-cli z_getnewaddress`
+    `./spacecoin-cli z_getnewaddress`
 
-To enable staking:
+- To enable staking:
 
-`./spacecoin-cli setgenerate true 0`
+    `./spacecoin-cli setgenerate true 0`
 
 To see all of the commands available use `./spacecoin-cli help` or visit the [Spacecoin RPC Docs](https://spacecoin-rpc.spaceworks.co).
