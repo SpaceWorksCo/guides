@@ -83,6 +83,7 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 - [Download MM2 Binary](Download-MM2-Binary.md)
 - [Setup MM2](Setup-MM2.md)
 - [Run MM2](Run-MM2.md)
+- [Use MM2](Use-MM2.md)
 
 #### Tools
 
