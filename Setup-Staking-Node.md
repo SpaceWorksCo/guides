@@ -29,46 +29,46 @@ This guide will teach you how to setup a setup a proper Spacecoin staking node u
 
 ### Install Spacecoin
 
-SSH into your sever or open Terminal on your machine.
+1. SSH into your sever or open Terminal on your machine.
 
-Install the needed dependencies:
+2. Install the needed dependencies:
 
-`sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev`
+    `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev`
 
-Clone and build spacecoin:
+3. Clone and build spacecoin:
 
-```shell
-git clone https://github.com/SpaceWorksCo/spacecoin --branch master --single-branch
-cd spacecoin
-./zcutil/fetch-params.sh
-./zcutil/build.sh -j4
-# Change -j4 to specify the number of cores to use. ex: -j2
-cd
-```
+    ```shell
+    git clone https://github.com/SpaceWorksCo/spacecoin --branch master --single-branch
+    cd spacecoin
+    ./zcutil/fetch-params.sh
+    ./zcutil/build.sh -j4
+    # Change -j4 to specify the number of cores to use. ex: -j2
+    cd
+    ```
 
 ### Setup Spacecoin
 
-Navigate to the spacecoin/src directory:
+1. Navigate to the spacecoin/src directory:
 
-`cd spacecoin/src`
+    `cd spacecoin/src`
 
-Start a new screen for spacecoin:
+2. Start a new screen for spacecoin:
 
-`screen -S spacecoin`
+    `screen -S spacecoin`
 
-Start spacecoin:
+3. Start spacecoin:
 
-`./spacecoind`
+    `./spacecoind`
 
 Here you will see all of the output from spacecoind as spacecoin starts up and syncs.
 
-Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
+4. Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r spacecoin`)
 
-Use `./spacecoin-cli getnewaddress` to get a new Spacecoin address.
+5. Use `./spacecoin-cli getnewaddress` to get a new Spacecoin address.
 
-Fund your staking node by sending SPACE to this address.
+6. Fund your staking node by sending SPACE to this address.
 
-Use `./spacecoin-cli getinfo` to check info from the spacecoin daemon.
+7. Use `./spacecoin-cli getinfo` to check info from the spacecoin daemon.
 
 When `blocks` is equal to `longestchain` the blockchain is fully synced.
 
@@ -77,122 +77,122 @@ Also check `balance` is greater than 0.
 
 ### Install pos64staker
 
-Install the needed dependencies:
+1. Install the needed dependencies:
 
-```shell
-cd
-sudo apt-get install python3-dev
-sudo apt-get install python3 libgnutls28-dev libssl-dev
-sudo apt-get install python3-pip
-pip3 install setuptools
-pip3 install wheel
-pip3 install base58 slick-bitcoinrpc
-```
+    ```shell
+    cd
+    sudo apt-get install python3-dev
+    sudo apt-get install python3 libgnutls28-dev libssl-dev
+    sudo apt-get install python3-pip
+    pip3 install setuptools
+    pip3 install wheel
+    pip3 install base58 slick-bitcoinrpc
+    ```
 
-Clone pos64staker and enter the directory:
+2. Clone pos64staker and enter the directory:
 
-```shell
-git clone https://github.com/KMDLabs/pos64staker
-cd pos64staker
-```
+    ```shell
+    git clone https://github.com/KMDLabs/pos64staker
+    cd pos64staker
+    ```
 
 ### Setup pos64staker
 
-Run the genaddresses script to create your 64 addresses:
+1. Run the genaddresses script to create your 64 addresses:
 
-`./genaddresses.py`
+    `./genaddresses.py`
 
-It will ask you to specify which chain. Tell it `SPACE` for spacecoin:
+2. It will ask you to specify which chain. Tell it `SPACE` for spacecoin:
 
-`Please specify chain:SPACE`
+    `Please specify chain:SPACE`
 
 This will create a `list.json` file in the current directory (/home/pos64staker).
 
 **THIS FILE CONTAINS PRIVATE KEYS. KEEP IT SAFE. DO NOT SHARE**
 
-Copy the `list.json` file to the directory `spacecoind` is located:
+3. Copy the `list.json` file to the directory `spacecoind` is located:
 
-`cp list.json ~/spacecoin/src/list.json`
+    `cp list.json ~/spacecoin/src/list.json`
 
-Open the `list.json` file so you can get your pubkey.
+4. Open the `list.json` file so you can get your pubkey.
 
-`nano list.json`
+    `nano list.json`
 
-Copy/paste the pubkey of the first segID to a txt file so you can use it later.
+5. Copy/paste the pubkey of the first segID to a txt file so you can use it later.
 
-Example of Pubkey: `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`
+    Example of Pubkey: `039e1f9a06d9d41981d0cc1c380d0965e82250d436523e18b42832b1e41f037e00`
 
-Use `Ctrl + X` to exit the file.
+6. Use `Ctrl + X` to exit the file.
 
-Distribute your Spacecoin to all 64 addresses:
+7. Distribute your Spacecoin to all 64 addresses:
 
-`./sendmany64.py`
+    `./sendmany64.py`
 
-Specify `SPACE` as your chain and decide on the size and amount of UTXOS to send.
+    Specify `SPACE` as your chain and decide on the size and amount of UTXOS to send.
 
-Ideally you'd like to try to use the entire balance on you sent to the node.
+    Ideally you'd like to try to use the entire balance on you sent to the node.
 
-```shell
-Please specify chain:SPACE
-Balance:1200
-Please specify the size of UTXOs:9
-Please specify the amount of UTXOs to send to each segID:2
-```
-Please take note of what this is actually asking for:
+    ```shell
+    Please specify chain:SPACE
+    Balance:1200
+    Please specify the size of UTXOs:9
+    Please specify the amount of UTXOs to send to each segID:2
+    ```
+    Please take note of what this is actually asking for:
 
-The above example will send 1152 coins total. It will send 18 coins in 2 UTXOs (9 each) to each of your 64 addresses (segIDs).      ((9 * 2) * 64) = 1152
+    The above example will send 1152 coins total. It will send 18 coins in 2 UTXOs (9 each) to each of your 64 addresses (segIDs).      ((9 * 2) * 64) = 1152
 
-It will give an error if your entered amounts are more than your balance. It will tell you how much available you have for each segID.
+    It will give an error if your entered amounts are more than your balance. It will tell you how much available you have for each segID.
 
 
 ### Launch Spacecoin
 
-Return to the `spacecoin/src` directory:
+1. Return to the `spacecoin/src` directory:
 
-`cd && cd spacecoin/src`
+    `cd && cd spacecoin/src`
 
-Stop the running spacecoin daemon:
+2. Stop the running spacecoin daemon:
 
-`./spacecoin-cli stop`
+    `./spacecoin-cli stop`
 
-Resume the spacecoin screen:
+3. Resume the spacecoin screen:
 
-`screen -r spacecoin`
+    `screen -r spacecoin`
 
-Restart the spacecoin chain with `-pubkey` and `-blocknotify` parameters:
+4. Restart the spacecoin chain with `-pubkey` and `-blocknotify` parameters:
 
-`./spacecoind -pubkey=<pubkey_from_list.json> '-blocknotify=/<path_to>/pos64staker/staker.py %s SPACE'`
+    `./spacecoind -pubkey=<pubkey_from_list.json> '-blocknotify=/<path_to>/pos64staker/staker.py %s SPACE'`
 
-Make sure to replace `<pubkey_from_list.json>` with the pubkey you copied earlier from the list.json file.
-Example: `03edad710b86de3815c45cb16b152ae0c0f8d995f78dfbeca77e5201defde307dc`
+    Make sure to replace `<pubkey_from_list.json>` with the pubkey you copied earlier from the list.json file.
+    Example: `03edad710b86de3815c45cb16b152ae0c0f8d995f78dfbeca77e5201defde307dc`
 
-Make sure to replace `<path_to>` in `-blocknotify=` with the correct path to the staker.py script.
-Example: `/home/$USER/pos64staker/staker.py`
+    Make sure to replace `<path_to>` in `-blocknotify=` with the correct path to the staker.py script.
+    Example: `/home/$USER/pos64staker/staker.py`
 
-Use `Ctrl + A` + `Ctrl + D` to exit the screen.
+5. Use `Ctrl + A` + `Ctrl + D` to exit the screen.
 
-Now, you just need to enable staking:
+6. Enable staking:
 
-`./spacecoin-cli setgenerate true 0`
+    `./spacecoin-cli setgenerate true 0`
 
 
 ### Finish
 
 At this point your spacecoin staking node should be setup and staking.
 
-To verify you are staking do:
+1. To verify you are staking do:
 
-`./spacecoin-cli getgenerate`
+    `./spacecoin-cli getgenerate`
 
-look for: `"staking": true,`
+    look for: `"staking": true,`
 
-For more staking info use:
+2. For more staking info use:
 
-`./spacecoin-cli getbalance64`
+    `./spacecoin-cli getbalance64`
 
-After some time of staking check your balance and you'll see it starting to grow:
+3. After some time of staking check your balance and you'll see it starting to grow:
 
-`./spacecoin-cli getinfo`
+    `./spacecoin-cli getinfo`
 
 As you stake blocks and earn more coins, pos64staker will distribute the new coins each of your 64 segID addresses.
 
@@ -206,9 +206,9 @@ If you stop spacecoin at all for updates, machine reboot, etc. simply follow the
 
 If you'd like to withdraw funds from a staking node without messing up the 64 segID distribution, do:
 
-```shell
-cd && cd pos64staker
-./withdraw.py
-```
+    ```shell
+    cd && cd pos64staker
+    ./withdraw.py
+    ```
 
 It will walk you through the withdraw process.

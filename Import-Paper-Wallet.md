@@ -21,6 +21,6 @@ Once a paper wallet is imported into Spacecoind or Spacecoin-QT, best practice i
 
 2. Enter the command `importprivkey YourPaperWalletPrivateKey`.
 
-The wallet will start a rescan. This could take some time.
+    The wallet will start a rescan. This could take some time.
 
-When complete the output will show the address imported.
+    When complete the output will show the address imported.

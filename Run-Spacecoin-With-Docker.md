@@ -13,14 +13,14 @@ It is assumed you have already docker installed on your machine.
 
 ### Instructions
 
-Open a Terminal.
+1. Open a Terminal.
 
-Build Spacecoin:
+2. Build Spacecoin:
 
-`docker build -t spaceworksco/spacecoin . --file Dockerfile`
+    `docker build -t spaceworksco/spacecoin . --file Dockerfile`
 
-Run Spacecoin:
+3. Run Spacecoin:
 
-`docker run -it -v ~/.SPACE:/root/.komodo/SPACE spaceworksco/spacecoin`
+    `docker run -it -v ~/.SPACE:/root/.komodo/SPACE spaceworksco/spacecoin`
 
 Spacecoin is now running.

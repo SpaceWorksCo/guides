@@ -19,18 +19,20 @@ With Spacecoin-QT the commands will need to be entered in the console. This is a
 
 2. Enter the command `convertpassphrase "your long and secure seed generated with atomicDEX"`.
 
-The output will display the Address and Private Keys associated with your seed.
+    The output will display the Address and Private Keys associated with your seed.
 
-Ex: ```{
-  "agamapassphrase": "your long and secure seed generated with atomicDEX",
-  "address": "RTCqmfQr3e5csyPpRNnLZLbzMcHmcngiSb",
-  "pubkey": "03b22eeb6cf6408607fddd770abb2ba3bbb64b112a3c626a8e8ac5fb090287c710",
-  "privkey": "c88ec5711d611f4c2b53597352d60e58fa77e2ca0580386f71b7867147a5d250",
-  "wif": "UvjQFXKynQ2LSMtXeWnHdE79mtXZ7nyGqKwStWxygSyg9EecvRLm"
-}```
+    Ex:
+    ```{
+      "agamapassphrase": "your long and secure seed generated with atomicDEX",
+      "address": "RTCqmfQr3e5csyPpRNnLZLbzMcHmcngiSb",
+      "pubkey": "03b22eeb6cf6408607fddd770abb2ba3bbb64b112a3c626a8e8ac5fb090287c710",
+      "privkey": "c88ec5711d611f4c2b53597352d60e58fa77e2ca0580386f71b7867147a5d250",
+      "wif": "UvjQFXKynQ2LSMtXeWnHdE79mtXZ7nyGqKwStWxygSyg9EecvRLm"
+      }
+    ```
 
 3. Enter the command `importprivkey wifFromConvertPassphraseOutput`
 
-Ex: `importprivkey UvjQFXKynQ2LSMtXeWnHdE79mtXZ7nyGqKwStWxygSyg9EecvRLm`
+    Ex: `importprivkey UvjQFXKynQ2LSMtXeWnHdE79mtXZ7nyGqKwStWxygSyg9EecvRLm`
 
-This will add the associated address to the wallet and rescan to look for transactions.
+    This will add the associated address to the wallet and rescan to look for transactions.

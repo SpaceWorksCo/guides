@@ -32,22 +32,22 @@ If you don't know the `fundingtxid` you can use the command `heirlist` to see al
 
 2. Enter the command: `heirinfo fundingtxid`
 
-  Example: `heirinfo 8c692a88942da92e926a778eca7c0a996c7294bd29f7cb92607bbaa4854b10a5`
+    Example: `heirinfo 8c692a88942da92e926a778eca7c0a996c7294bd29f7cb92607bbaa4854b10a5`
 
-This will return all information about the fund.
+    This will return all information about the fund.
 
-```
-{
-  "fundingtxid": "8c692a88942da92e926a778eca7c0a996c7294bd29f7cb92607bbaa4854b10a5",
-  "name": "Son",
-  "owner": "0322e7941d70b43697d7b402d7f66bc4eb512dc97c0f338c3172f29181260af076",
-  "heir": "0347da1a89a90b0b62178abcb2f4d8c64b1ec3fee28c9350aa9ab48804e8455df5",
-  "type": "coins",
-  "lifetime": "0.10000000",
-  "available": "0.10000000",
-  "InactivityTimeSetting": "60",
-  "IsHeirSpendingAllowed": "true",
-  "memo": "Spacecoin Funds for my son",
-  "result": "success"
-}
-```
+    ```
+    {
+      "fundingtxid": "8c692a88942da92e926a778eca7c0a996c7294bd29f7cb92607bbaa4854b10a5",
+      "name": "Son",
+      "owner": "0322e7941d70b43697d7b402d7f66bc4eb512dc97c0f338c3172f29181260af076",
+      "heir": "0347da1a89a90b0b62178abcb2f4d8c64b1ec3fee28c9350aa9ab48804e8455df5",
+      "type": "coins",
+      "lifetime": "0.10000000",
+      "available": "0.10000000",
+      "InactivityTimeSetting": "60",
+      "IsHeirSpendingAllowed": "true",
+      "memo": "Spacecoin Funds for my son",
+      "result": "success"
+    }
+    ```

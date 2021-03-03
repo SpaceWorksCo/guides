@@ -24,9 +24,6 @@ Certain times a rewind will fail and you will need to [resync the blockchain](Re
 3. Run `spacecoin-qt`/`spacecoind` with the option `-rewind=xxxxxx`. xxxxxx is the block height it will rewind to.
 Ex: `spacecoin-qt -rewind=313131`
 
-On windows, go to your `spacecoin-qt` file, right click and select `Create Shortcut`.
-Then right click on the shortcut and select `Properties`
-Then go to the `Target` field on the Shortcut page of the Properties screen.
-Add `-rewind=xxxxxxx` directly after spacecoin-qt.exe
+    On windows, go to your `spacecoin-qt` file, right click and select `Create Shortcut`. Then right click on the shortcut and select `Properties`. Then go to the `Target` field on the Shortcut page of the Properties screen. Add `-rewind=xxxxxxx` directly after spacecoin-qt.exe.
 
 4. Let the blockchain rewind to the specified block and then sync to the latest block.

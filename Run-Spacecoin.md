@@ -15,19 +15,19 @@ The instructions use the program `screen` to keep the process running in the bac
 
 ### Instructions
 
-Open a Terminal.
+1. Open a Terminal.
 
-Navigate to the spacecoin/src directory:
+2. Navigate to the spacecoin/src directory:
 
-`cd spacecoin/src`
+    `cd spacecoin/src`
 
-Start a new screen for spacecoin:
+3. Start a new screen for spacecoin:
 
-`screen -S spacecoin`
+    `screen -S spacecoin`
 
-Start spacecoin:
+4. Start spacecoin:
 
-`./spacecoind`
+    `./spacecoind`
 
 Here you will see all of the output from spacecoind as it starts up and syncs.
 

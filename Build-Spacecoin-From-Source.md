@@ -17,113 +17,113 @@ The Windows instructions are intended for Ubuntu to cross compile for Windows.
 
 ### Linux
 
-Open the Terminal.
+1. Open the Terminal.
 
-Install dependencies:
+2. Install dependencies:
 
-`sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev`
+    `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev`
 
-Clone the Spacecoin repository:
+3. Clone the Spacecoin repository:
 
-`git clone https://github.com/SpaceWorksCo/spacecoin`
+    `git clone https://github.com/SpaceWorksCo/spacecoin`
 
-Enter the Spacecoin directory:
+4. Enter the Spacecoin directory:
 
-`cd spacecoin`
+    `cd spacecoin`
 
-Fetch the zcash paramaters:
+5. Fetch the zcash paramaters:
 
-`./zcutil/fetch-params.sh`
+    `./zcutil/fetch-params.sh`
 
-Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
+6. Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
 
-`./zcutil/build.sh -j4`
+    `./zcutil/build.sh -j4`
 
 Spacecoin is built and ready to run.
 
 ### Mac
 
-Open the Terminal.
+1. Open the Terminal.
 
-Install brew:
+2. Install brew:
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Install Xcode: (A pop-up window will open to install CLT without installing the entire Xcode package.)
+3. Install Xcode: (A pop-up window will open to install CLT without installing the entire Xcode package.)
 
-`xcode-select --install`
+    `xcode-select --install`
 
-Update brew:
+4. Update brew:
 
-`brew update`
+    `brew update`
 
-Upgrade brew:
+5. Upgrade brew:
 
-`brew upgrade`
+    `brew upgrade`
 
-Install dependencies:
+6. Install dependencies:
 
-```
-brew tap discoteq/discoteq; brew install flock
-brew install autoconf autogen automake
-brew install gcc@8
-brew install binutils
-brew install protobuf
-brew install coreutils
-brew install wget
-```
+    ```
+    brew tap discoteq/discoteq; brew install flock
+    brew install autoconf autogen automake
+    brew install gcc@8
+    brew install binutils
+    brew install protobuf
+    brew install coreutils
+    brew install wget
+    ```
 
-Clone the Spacecoin repository:
+7. Clone the Spacecoin repository:
 
-`git clone https://github.com/SpaceWorksCo/spacecoin`
+    `git clone https://github.com/SpaceWorksCo/spacecoin`
 
-Enter the Spacecoin directory:
+8. Enter the Spacecoin directory:
 
-`cd spacecoin`
+    `cd spacecoin`
 
-Fetch the zcash paramaters:
+9. Fetch the zcash paramaters:
 
-`./zcutil/fetch-params.sh`
+    `./zcutil/fetch-params.sh`
 
-Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
+10. Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
 
-`./zcutil/build-mac.sh -j4`
+    `./zcutil/build-mac.sh -j4`
 
 Spacecoin is built and ready to run.
 
 ### Windows
 
-Open the Terminal.
+1. Open the Terminal.
 
-Install dependencies:
+2. Install dependencies:
 
-`sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64 libsodium-dev libevent-dev`
+    `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64 libsodium-dev libevent-dev`
 
-Install rust targeting x86_64-pc-windows:
+3. Install rust targeting x86_64-pc-windows:
 
-```
-curl https://sh.rustup.rs -sSf | sh
-source $HOME/.cargo/env
-rustup target add x86_64-pc-windows-gnu
-```
+    ```
+    curl https://sh.rustup.rs -sSf | sh
+    source $HOME/.cargo/env
+    rustup target add x86_64-pc-windows-gnu
+    ```
 
-Configure to use POSIX variants:
+4. Configure to use POSIX variants:
 
-```
-sudo update-alternatives --config x86_64-w64-mingw32-gcc
-sudo update-alternatives --config x86_64-w64-mingw32-g++
-```
+    ```
+    sudo update-alternatives --config x86_64-w64-mingw32-gcc
+    sudo update-alternatives --config x86_64-w64-mingw32-g++
+    ```
 
-Clone the Spacecoin repository:
+5. Clone the Spacecoin repository:
 
-`git clone https://github.com/SpaceWorksCo/spacecoin`
+    `git clone https://github.com/SpaceWorksCo/spacecoin`
 
-Enter the Spacecoin directory:
+6. Enter the Spacecoin directory:
 
-`cd spacecoin`
+    `cd spacecoin`
 
-Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
+7. Build Spacecoin: (Replace -j4 with the number of cores you'd like to use.)
 
-`./zcutil/build-win.sh -j4`
+    `./zcutil/build-win.sh -j4`
 
 Spacecoin is built and ready to run.

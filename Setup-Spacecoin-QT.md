@@ -17,14 +17,16 @@ If you're looking for a lite wallet without the blockchain download, try [Spacec
 
 ### Instructions
 
-Download Spacecoin-QT for you desired platform from [spaceworks.co/spacecoin/wallets](https://spaceworks.co/spacecoin/wallets/#spacecoin-qt) or [github](https://github.com/spaceworksco/spaceocean/releases/latest).
+1. Download Spacecoin-QT for you desired platform from [spaceworks.co/spacecoin/wallets](https://spaceworks.co/spacecoin/wallets/#spacecoin-qt) or [github](https://github.com/spaceworksco/spaceocean/releases/latest).
 
-Extract the downloaded file and enter the folder.
+2. Extract the downloaded file and enter the folder.
 
-Run the `fetch-params` file to download the necessary proving keys. (Only necessary to do once. If you've downloaded them previously then this step can be skipped)
+3. Run the `fetch-params` file to download the necessary proving keys. (Only necessary to do once. If you've downloaded them previously then this step can be skipped)
 
-Run `spacecoin-qt` to start the wallet.
+4. Run `spacecoin-qt` to start the wallet.
 
-Let the wallet sync the entire blockchain before using. You can see the progress in the bottom right corner by hovering your mouse over the spinning arrows.
+5. Let the wallet sync the entire blockchain before using. You can see the progress in the bottom right corner by hovering your mouse over the spinning arrows.
+
+Spacecoin-QT is now setup.
 
 Start sending and receiving SPACE, and staking!

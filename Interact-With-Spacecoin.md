@@ -18,11 +18,11 @@ If it is not, you can:
 
 ### Instructions
 
-Open a Terminal.
+1. Open a Terminal.
 
-Navigate to the spacecoin/src directory:
+2. Navigate to the spacecoin/src directory:
 
-`cd spacecoin/src`
+    `cd spacecoin/src`
 
 Here you will find `spacecoin-cli`, which you can use to enter commands.
 

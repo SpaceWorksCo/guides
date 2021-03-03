@@ -18,9 +18,9 @@ Be sure you want to burn your coins before proceeding.
 
 ### Instructions
 
-Open your Spacecoin wallet.
+1. Open your Spacecoin wallet.
 
-Send coins to address `RD6GgnrMpPaTSMn8vai6yiGA7mN4QGPVMY`.
+2. Send coins to address `RD6GgnrMpPaTSMn8vai6yiGA7mN4QGPVMY`.
 
 Your coins are now burnt.
 
