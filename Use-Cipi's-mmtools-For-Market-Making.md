@@ -1,4 +1,4 @@
-# Use Cipi's mmtools For Marketmaking
+# Use Cipi's mmtools For Market Making
 
 This guide will teach you how to use mmtools by cipi for marketmaking.
 
@@ -20,7 +20,7 @@ If BTC or ETH/ERC20 is involved, it will set a `min_volume` for the order. Basic
 
 This guide is intended for Ubuntu (Debian).
 
-It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downloaded](Download-MM2-Binary.md) mm2, [Setup MM2](Setup-MM2.md) and are [running mm2](Run-MM2.md).
+It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2.
 
 The coins you wish to use should be enabled in mm2. (Guide coming soon)
 
@@ -40,22 +40,26 @@ The coins you wish to use should be enabled in mm2. (Guide coming soon)
 
     `cd && git clone https://github.com/cipig/mmtools`
 
-5. Determine the base coin/coins you'll use. (BTC, KMD, BCH, LTC, DOGE) In this case we'll be using Komodo.
+5. Enter the mmtools directory:
 
-6. Open the config file for editing. Replace KMD with whatever base coin you choose.
+    `cd mmtools`
+
+6. Determine the base coin you'll use. (BTC, KMD, BCH, LTC, DOGE) In this case we'll be using Komodo.
+
+7. Open the config file for editing. Replace KMD with whatever base coin you choose.
 
     `nano mpm/mpm.conf.dex.KMD`
 
-7. Set the `bidmargin` and `askmargin` for each coin to whatever margin you'd like. The margin number is the % below (bid) or above (ask) market price.
+8. Set the `bidmargin` and `askmargin` for each coin to whatever margin you'd like. The margin number is the % below (bid) or above (ask) market price.
 
-8. Use `Ctrl` + `x` to exit nano.
+9. Use `Ctrl` + `x` to exit nano.
 
-9. Press `y` to save your changes.
+10. Press `y` to save your changes and then enter.
 
-10. Start mpm with CoinGecko prices. Replace KMD with whatever base coin you choose.
+11. Start mpm with CoinGecko prices. Replace KMD with whatever base coin you choose.
 
-    `stdbuf -oL nohup ~/mpm/mpm.sh.dex_gecko KMD > /tmp/mpm.log.dex.kmd &`
+    `stdbuf -oL nohup ~/mmtools/mpm/mpm.sh.dex_gecko KMD > /tmp/mpm.log.dex.kmd &`
 
-MPM is now running and placing orders for the coins in the config that are enabled in mm2.
+MPM is now running and placing orders for the coins you have enabled in mm2.
 
 To see mpm output do: `tail -f /tmp/mpm.log.dex.kmd`

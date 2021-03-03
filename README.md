@@ -86,4 +86,4 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 #### Tools
 
-- [Use Cipi's mmtools For MarketMaking](Use-Cipi's-mmtools-For-Marketmaking.md)
+- [Use Cipi's mmtools For Market Making](Use-Cipi's-mmtools-For-Market-Making.md)
