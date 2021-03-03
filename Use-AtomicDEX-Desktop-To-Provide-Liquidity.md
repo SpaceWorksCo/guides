@@ -21,40 +21,40 @@ For your orders to remain in the orderbook and available to others, AtomicDEX mu
 
 1. Open AtomicDEX-Desktop and login to your wallet.
 
-![Login](/images/atomicdex_login.png)
+    ![Login](/images/atomicdex_login.png)
 
 2. Click on the `Wallet` page from the menu on the left side.
 
-![Wallet](/images/atomicdex_wallet.png)
+    ![Wallet](/images/atomicdex_wallet.png)
 
 3. Click on the `+` button to open the coin list.
 
-![Add Coin](/images/atomicdex_add_coin.png)
+    ![Add Coin](/images/atomicdex_add_coin.png)
 
 4. Select the coins you would like to trade and click `Enable`.
 
-![Enable](/images/atomicdex_enable.png)
+    ![Enable](/images/atomicdex_enable.png)
 
 5. Click on the `DEX` page from the menu on the left side.
 
-![DEX](/images/atomicdex_dex.png)
+    ![DEX](/images/atomicdex_dex.png)
 
 6. Select the 2 coins you would like to provide liquidity for.
 
   All pairs are possible and need liquidity.
 `SPACE/BTC`, `SPACE/KMD`, `KMD/BTC`, `KMD/ZEC`, `DOGE/DASH` etc.
 
-![Coins](/images/atomicdex_coins.png)
+    ![Coins](/images/atomicdex_coins.png)
 
 7. Input your `Price` and `Volume` values on the right side.
 
-  In the screenshot, `Price` is the price in KMD for 1 SPACE and `Volume` is the amount of SPACE to sell.
+    In the screenshot, `Price` is the price in KMD for 1 SPACE and `Volume` is the amount of SPACE to sell.
 
-![Order](/images/atomicdex_order2.png)
+    ![Order](/images/atomicdex_order2.png)
 
 8. Click on `Start Swap` to place your order.
 
-![Swap](/images/atomicdex_swap2.png)
+    ![Swap](/images/atomicdex_swap2.png)
 
 Your order is now providing liquidity on AtomicDEX!
 
