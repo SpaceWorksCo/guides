@@ -20,9 +20,7 @@ If BTC or ETH/ERC20 is involved, it will set a `min_volume` for the order. Basic
 
 This guide is intended for Ubuntu (Debian).
 
-It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2.
-
-The coins you wish to use should be enabled in mm2. (Guide coming soon)
+It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
 
 ### Instructions
 

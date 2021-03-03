@@ -15,6 +15,8 @@ You can interact with `mm2` using any of the available API methods: [docs.komodo
 
 Each curl command requires replacing certain information with the coin/information you need.
 
+If you'd like to simplify this process, try [using webworker01's mmtools](Use-Webworker01's-mmtools.md).
+
 ### Instructions
 
 1. Open a Terminal.
