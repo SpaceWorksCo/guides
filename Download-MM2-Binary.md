@@ -21,4 +21,4 @@ AtomicDEX-API produces a binary called `mm2`.
 
 You now have the mm2 binary on your computer.
 
-You can run it and start trading.
+You can now [setup mm2](Setup-MM2.md).

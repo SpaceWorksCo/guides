@@ -15,24 +15,28 @@ The instructions use the program `screen` to keep the process running in the bac
 
 ### Instructions
 
-Open a Terminal.
+1. Open a Terminal.
 
-Navigate to the directory with mm2. In this case, we'll assume you followed the [Build MM2 on Ubuntu](Build-MM2-On-Ubuntu.md) guide:
+2. Navigate to the directory with mm2.
 
-`cd atomicDEX-API/target/release`
+    In this case, we'll assume you followed the [Build MM2 on Ubuntu](Build-MM2-On-Ubuntu.md) guide:
 
-Source the userpass file:
+    `cd atomicDEX-API/target/release`
 
-`source userpass`
+3. Source the userpass file:
 
-Start a screen to run mm2 in:
+    `source userpass`
 
-`screen -S mm2`
+4. Start a screen to run mm2 in:
 
-Start mm2 with the following command, replacing ``<yourSeed>`` with your seed:
+    `screen -S mm2`
 
-`./mm2 "{\"netid\":7777, \"userhome\":\"/${HOME#"/"}\", \"passphrase\":\"<yourSeed>\", \"rpc_password\":\"$userpass\"}" &`
+5. Start mm2 with the following command, replacing ``<yourSeed>`` with your seed:
 
-Use `Ctrl + A` + `Ctrl + D` to exit the screen. (you can return to it at any point with `screen -r mm2`)
+    `./mm2 "{\"netid\":7777, \"userhome\":\"/${HOME#"/"}\", \"passphrase\":\"<yourSeed>\", \"rpc_password\":\"$userpass\"}" &`
+
+6. Use `Ctrl + A` + `Ctrl + D` to exit the screen.
+
+    You can return to it at any point with `screen -r mm2`.
 
 You can now to interact with `mm2` with any of the available methods: [docs.komodoplatform.com/basic-docs/atomicdex/atomicdex-api](https://docs.komodoplatform.com/basic-docs/atomicdex/atomicdex-api.html)

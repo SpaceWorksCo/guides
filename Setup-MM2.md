@@ -16,31 +16,37 @@ It is assumed you already built or downloaded `mm2` on your system.
 
 ### Instructions
 
-Open a Terminal.
+1. Open a Terminal.
 
-Navigate to the directory with mm2. In this case, we'll assume you followed the [Build MM2 on Ubuntu](Build-MM2-On-Ubuntu.md) guide:
+2. Navigate to the directory with mm2.
 
-`cd atomicDEX-API/target/release`
+    In this case, we'll assume you followed the [Build MM2 on Ubuntu](Build-MM2-On-Ubuntu.md) guide:
+
+    `cd atomicDEX-API/target/release`
 
 #### Coins File
 
-Download the coins file:
+1. Download the coins file:
 
-`wget https://raw.githubusercontent.com/KomodoPlatform/coins/master/coins`
+    `wget https://raw.githubusercontent.com/KomodoPlatform/coins/master/coins`
 
 #### Userpass
 
-Setup a userpass. Make it something safe so others can't access your mm2.
+When setting up a userpass, make it something safe so others can't access your mm2.
 
-Use nano to create the userpass file:
+1. Use nano to create the userpass file:
 
-`nano userpass`
+    `nano userpass`
 
-Enter the follow, replacing `<yourUserpass>` with a userpass you choose yourself.
+2. Enter the following, replacing `<yourUserpass>` with a userpass you choose yourself.
 
-`export userpass="<yourUserpass>"`
+    `export userpass="<yourUserpass>"`
 
-Use `Ctrl` + `X` to exit. Press `y` to save the file.
+3. Use `Ctrl` + `X` to exit.
+
+4. Press `y` to save the file.
+
+5. Press enter to keep the name the same.
 
 #### Seed
 
