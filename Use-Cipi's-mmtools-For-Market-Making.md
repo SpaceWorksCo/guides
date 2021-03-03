@@ -28,21 +28,31 @@ The coins you wish to use should be enabled in mm2. (Guide coming soon)
 
 1. Open the Terminal or SSH into your server.
 
+    ![terminal](/images/mpm_1.png)
+
 2. Update the system:
 
     `sudo apt-get update`
+
+    ![update](/images/mpm_2.png)
 
 3. Install dependencies:
 
     `sudo apt-get install jq libdatetime-perl libdatetime-format-strptime-perl libjson-perl libjson-rpc-perl libfile-slurp-perl liblwp-protocol-https-perl`
 
+    ![dependencies](/images/mpm_3.png)
+
 4. Clone the mmtools repository:
 
     `cd && git clone https://github.com/cipig/mmtools`
 
+    ![clone](/images/mpm_4.png)
+
 5. Enter the mmtools directory:
 
     `cd mmtools`
+
+    ![enter](/images/mpm_5.png)
 
 6. Determine the base coin you'll use. (BTC, KMD, BCH, LTC, DOGE) In this case we'll be using Komodo.
 
@@ -50,15 +60,29 @@ The coins you wish to use should be enabled in mm2. (Guide coming soon)
 
     `nano mpm/mpm.conf.dex.KMD`
 
+    ![edit](/images/mpm_7.png)
+
 8. Set the `bidmargin` and `askmargin` for each coin to whatever margin you'd like. The margin number is the % below (bid) or above (ask) market price.
+
+    ![set](/images/mpm_8.png)
 
 9. Use `Ctrl` + `x` to exit nano.
 
-10. Press `y` to save your changes and then enter.
+    ![exit](/images/mpm_9.png)
 
-11. Start mpm with CoinGecko prices. Replace KMD with whatever base coin you choose.
+10. Press `y` to save your changes.
+
+    ![save](/images/mpm_10.png)
+
+11. Press `enter` to keep the name of the file the same.
+
+    ![enter](/images/mpm_11.png)
+
+12. Start mpm with CoinGecko prices. Replace KMD with whatever base coin you choose.
 
     `stdbuf -oL nohup ~/mmtools/mpm/mpm.sh.dex_gecko KMD > /tmp/mpm.log.dex.kmd &`
+
+    ![start](/images/mpm_12.png)
 
 MPM is now running and placing orders for the coins you have enabled in mm2.
 
