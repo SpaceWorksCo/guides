@@ -50,7 +50,7 @@ It is assumed that you have already [setup AtomicDEX-Desktop](Setup-AtomicDEX-De
 
 8. Click on `Start Swap` to start your trade.
 
-![Swap](/images/atomicdex_swap.png)
+    ![Swap](/images/atomicdex_swap.png)
 
 You are now performing decentralized atomic swaps!
 

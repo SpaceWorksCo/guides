@@ -3,3 +3,10 @@ title: Guides
 description: Guides for Spacecoin and AtomicDEX.
 github:
   is_project_page: false
+
+navbar-links:
+  Home: "https://guides.spaceworks.co"
+  Spacecoin:
+    - Site: "https://spaceworks.co/spacecoin"
+    - Explorer: "https://explorer.spaceworks.co"
+    - Mining Pool: "https://mining.spaceworks.co"

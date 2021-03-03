@@ -39,4 +39,4 @@ The instructions use the program `screen` to keep the process running in the bac
 
     You can return to it at any point with `screen -r mm2`.
 
-You can now to interact with `mm2` with any of the available methods: [docs.komodoplatform.com/basic-docs/atomicdex/atomicdex-api](https://docs.komodoplatform.com/basic-docs/atomicdex/atomicdex-api.html)
+You can now start [using MM2](Use-MM2.md).
