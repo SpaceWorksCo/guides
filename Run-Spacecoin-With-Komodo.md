@@ -27,7 +27,7 @@ The instructions use the program `screen` to keep the process running in the bac
 
 4. Start spacecoin:
 
-    `./komodod -ac_name=SPACE -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=165.227.35.158 -addnode=167.172.39.135 -addnode=165.22.64.156 -addnode=188.166.221.247 &`
+    `./komodod -ac_name=SPACE -ac_supply=0 -ac_eras=6 -ac_reward=3600000000,2700000000,1800000000,900000000,600000000,300000000 -ac_end=939393,3757572,12212109,325343422,638474735,951606048 -ac_blocktime=30 -ac_staked=50 -ac_cbmaturity=1 -ac_cc=939 -ac_sapling=1 -addnode=explorer.spaceworks.co -addnode=mining.spaceworks.co -addnode=space.explorer.dexstats.info -addnode=space-node.nextblu.com &`
 
     Here you will see all of the output from spacecoin as it starts up and syncs.
 
