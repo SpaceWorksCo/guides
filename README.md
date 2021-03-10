@@ -32,6 +32,7 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 - [Find Data Directory](Find-Data-Directory.md)
 - [Rewind The Blockchain](Rewind-The-Blockchain.md)
+- [Reindex The Blockchain](Reindex-The-Blockchain.md)
 - [Resync The Blockchain](Resync-The-Blockchain.md)
 - [Bootstrap The Blockchain](Bootstrap-The-Blockchain.md)
 
