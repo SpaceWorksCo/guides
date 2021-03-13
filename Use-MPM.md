@@ -1,16 +1,18 @@
-# Use Cipi's mmtools For Market Making
+# Use MPM
 
-This guide will teach you how to use mmtools by cipi for marketmaking.
+This guide will teach you how to use [mpm](https://github.com/cipig/mmtools) by cipi for market making on atomicDEX.
 
 ## Table of Contents
 
   - [Background Information](#Background-Information)
   - [Please Note](#Please-Note)
   - [Instructions](#Instructions)
+      - [MMTools](#MMTools)
+      - [Standalone](#Standalone)
 
 ### Background Information
 
-mmtools connects to mm2 and places marketmaking orders based on prices from CoinGecko.
+mpm connects to mm2 and places market making orders based on prices from CoinGecko and margins you set.
 
 25% of the `24h_price_change` is added to the spread of the involved coins. So if `24h_price_change` is 10%, it will add 2.5% to both bid and ask. This is done to protect from prices that go crazy on illiquid coins. For big coins this may be too much, for small coins not enough, but you can set different spreads for different coins in the config.
 
@@ -18,11 +20,19 @@ If BTC or ETH/ERC20 is involved, it will set a `min_volume` for the order. Basic
 
 ### Please Note
 
-This guide is intended for Ubuntu (Debian).
+This guide is intended for Ubuntu.
 
-It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
+It is assumed you are either:
+  - [Using mmtools](Use-MMTools.md) with coins enabled (easiest solution)
+  - Have [built](Build-MM2-On-Ubuntu.md)/[downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
 
 ### Instructions
+
+#### MMTools
+
+TODO: coming soon
+
+#### Standalone
 
 1. Open the Terminal or SSH into your server.
 
@@ -36,7 +46,7 @@ It is assumed you already have already [built](Build-MM2-On-Ubuntu.md) or [downl
 
 3. Install dependencies:
 
-    `sudo apt-get install jq libdatetime-perl libdatetime-format-strptime-perl libjson-perl libjson-rpc-perl libfile-slurp-perl liblwp-protocol-https-perl`
+    `sudo apt-get install git jq libdatetime-perl libdatetime-format-strptime-perl libjson-perl libjson-rpc-perl libfile-slurp-perl liblwp-protocol-https-perl`
 
     ![dependencies](/images/mpm_3.png)
 

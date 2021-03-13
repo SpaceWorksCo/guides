@@ -88,5 +88,5 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 #### Tools
 
-- [Use Webworker01's mmtools](Use-Webworker01's-mmtools.md)
-- [Use Cipi's mmtools For Market Making](Use-Cipi's-mmtools-For-Market-Making.md)
+- [Use MMTools](Use-MMTools.md)
+- [Use MPM](Use-MPM.md)
