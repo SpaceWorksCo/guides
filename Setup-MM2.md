@@ -14,7 +14,7 @@ This guide will teach you how to setup mm2.
 
 It is assumed you already built or downloaded `mm2` on your system.
 
-If you'd like to simplify this process, try [using webworker01's mmtools](Use-Webworker01's-mmtools.md).
+If you'd like to simplify this process, [use MMTools](Use-MMTools.md).
 
 ### Instructions
 

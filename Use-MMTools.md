@@ -107,12 +107,12 @@ This guide is intended for Ubuntu.
 
 **MM2 is now built, setup, running, and ready for trading!**
 
-At this point you could [Use MPM](Use-MPM.md) for market making with MM2.
+At this point you could [use MPM](Use-MPM.md) for market making with MM2.
 
 
 #### Extra Information
 
-**Setting Up your own config file:**
+Setting Up your own config file:
 
 *This is only necessary if you answered no to the config question or want to modify your setup.*
 

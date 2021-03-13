@@ -11,7 +11,7 @@ This guide will teach you how to run mm2.
 
 It is assumed you already have already [Setup MM2](Setup-MM2.md).
 
-If you'd like to simplify this process, try [using webworker01's mmtools](Use-Webworker01's-mmtools.md).
+If you'd like to simplify this process, [use MMTools](Use-MMTools.md).
 
 The instructions use the program `screen` to keep the process running in the background.
 

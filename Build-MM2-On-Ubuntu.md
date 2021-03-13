@@ -11,7 +11,7 @@ This guide will teach you how to build mm2 on Ubuntu.
 
 AtomicDEX-API produces a binary called `mm2`.
 
-If you'd like to simplify this process, try [using webworker01's mmtools](Use-Webworker01's-mmtools.md).
+If you'd like to simplify this process, [use MMTools](Use-MMTools.md).
 
 ### Instructions
 
