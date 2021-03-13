@@ -7,7 +7,7 @@ This guide will teach you how to use [mmtools](https://github.com/webworker01/mm
   - [Background Information](#Background-Information)
   - [Please Note](#Please-Note)
   - [Instructions](#Instructions)
-  - [Extra Information](#Extra Information)
+  - [Extra Information](#Extra-Information)
 
 ### Background Information
 
@@ -81,7 +81,7 @@ This guide is intended for Ubuntu.
 
 10. Start the coins you'd like to use:
 
-    KMD, VRSC, WSB, and SOULJA are auto enabled. 
+    KMD, VRSC, WSB, and SOULJA are auto enabled.
 
     `./electrum SPACE` - to start Spacecoin.
 
