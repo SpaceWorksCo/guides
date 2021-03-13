@@ -86,9 +86,9 @@ TODO: coming soon
 
     ![enter](/images/mpm_11.png)
 
-12. Start mpm with CoinGecko prices. Replace KMD with whatever base coin you choose.
+12. Start mpm with CoinGecko prices. Replace `KMD` and `komodo` with whatever base coin you choose.
 
-    `stdbuf -oL nohup ~/mmtools/mpm/mpm.sh.dex_gecko KMD > /tmp/mpm.log.dex.kmd &`
+    `stdbuf -oL nohup ~/mmtools/mpm/mpm.sh.dex_gecko KMD komodo > /tmp/mpm.log.dex.kmd &`
 
     ![start](/images/mpm_12.png)
 
