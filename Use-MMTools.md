@@ -81,9 +81,9 @@ This guide is intended for Ubuntu.
 
 10. Start the coins you'd like to use:
 
-    `./electrum SPACE` - to start Spacecoin.
+    KMD, VRSC, WSB, and SOULJA are auto enabled. 
 
-    `./electrum KMD` - to start Komodo.
+    `./electrum SPACE` - to start Spacecoin.
 
     ![Electrum](/images/mmtools_10.png)
 
