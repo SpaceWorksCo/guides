@@ -23,8 +23,8 @@ If BTC or ETH/ERC20 is involved, it will set a `min_volume` for the order. Basic
 This guide is intended for Ubuntu.
 
 It is assumed you are either:
-    - [Using mmtools](Use-MMTools.md)
-    - Have [built](Build-MM2-On-Ubuntu.md)/[downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
+  - [Using mmtools](Use-MMTools.md)
+  - Have [built](Build-MM2-On-Ubuntu.md)/[downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
 
 You will need to decide what base coin you'd like to use.
 
@@ -45,7 +45,7 @@ You can choose to use MPM with MMTools (easiest solution) or in a Standalone set
 
 2. Configure the margins for coins you'd like mpm to place orders with:
 
-    Remove coins you don't wish to trade or you'll see errors in MPM TV.
+    Remove coins you don't wish to trade or you'll see errors in the log file.
 
     Replace KMD with whatever base coin you choose.
 
@@ -63,9 +63,7 @@ You can choose to use MPM with MMTools (easiest solution) or in a Standalone set
 
 **MPM is now running and placing orders**
 
-To see MPM output run:
-
-`./mpm_tv`
+To see MPM output, check your mmtools log file.
 
 To stop MPM run:
 
