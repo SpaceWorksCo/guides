@@ -23,14 +23,54 @@ If BTC or ETH/ERC20 is involved, it will set a `min_volume` for the order. Basic
 This guide is intended for Ubuntu.
 
 It is assumed you are either:
-  - [Using mmtools](Use-MMTools.md) with coins enabled (easiest solution)
-  - Have [built](Build-MM2-On-Ubuntu.md)/[downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
+    - [Using mmtools](Use-MMTools.md)
+    - Have [built](Build-MM2-On-Ubuntu.md)/[downloaded](Download-MM2-Binary.md), [setup](Setup-MM2.md), and are [running](Run-MM2.md) mm2 with [coins started](Use-MM2.md) that you'd like to trade.
+
+You will need to decide what base coin you'd like to use.
+
+  - BTC, KMD, BCH, LTC, and DOGE are available.
+  - For example: SPACE/KMD, CHIPS/KMD, WSB/KMD, VRSC/KMD
 
 ### Instructions
 
+You can choose to use MPM with MMTools (easiest solution) or in a Standalone setup running MM2 and MPM manually.
+
 #### MMTools
 
-TODO: coming soon
+0. [Use MMTools to install MPM.](Use-MMTools.md) Start MM2, and enable coins.
+
+1. Enter the mmtools directory:
+
+    `cd && cd mmtools`
+
+2. Configure the margins for coins you'd like mpm to place orders with:
+
+    Remove coins you don't wish to trade or you'll see errors in MPM TV.
+
+    Replace KMD with whatever base coin you choose.
+
+    `./mpm_config KMD`
+
+3. Use `Ctrl` + `x` to exit the config file.
+
+4. Press `y` to save your changes.
+
+5. Press `enter` to keep the name of the file the same.
+
+6. Start MPM:
+
+    `./mpm_start KMD`
+
+**MPM is now running and placing orders**
+
+To see MPM output run:
+
+`./mpm_tv`
+
+To stop MPM run:
+
+`./mpm_stop`
+
 
 #### Standalone
 
