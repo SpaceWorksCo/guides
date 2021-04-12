@@ -7,7 +7,7 @@ This guide will teach you how to use pubkeys with SPACE.
 - [Please Note](#Please-Note)
 - [Find a Pubkey](#Find-A-Pubkey)
 - [Make a new Pubkey](#Make-A-New-Pubkey)
-- [Using a Pubkey](Using-A-Pubkey)
+- [Using a Pubkey](#Using-A-Pubkey)
 
 ### Please Note
 
@@ -79,7 +79,7 @@ A wallet with a set pubkey will send change from transactions to the address of 
 
 There are 2 ways to tell a wallet to use a pubkey.
 
-[Setpubkey Command](Setpubkey-Command) or [Start Wallet with Pubkey](Start-Wallet-With-Pubkey)
+[Setpubkey Command](#Setpubkey-Command) or [Start Wallet with Pubkey](#Start-Wallet-With-Pubkey)
 
 ##### Setpubkey Command
 

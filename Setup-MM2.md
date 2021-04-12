@@ -56,7 +56,7 @@ Create a seed for your AtomicDEX account.
 
 Make sure to keep it somewhere safe and don't share with anyone else. The seed holds access to your coins.
 
-You can use `AtomicDEX-Desktop` to get a seed or use a tool such as [dogeseed.com](dogeseed.com).
+You can use `AtomicDEX-Desktop` to get a seed or use a tool such as [dogeseed.com](https://dogeseed.com).
 
 ------
 
