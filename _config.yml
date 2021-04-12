@@ -1,12 +1,10 @@
-theme: jekyll-theme-cayman
 title: Guides
 description: Guides for Spacecoin and AtomicDEX.
+keywords: "guides, spacecoin guides, atomicDEX guides, spacecoin, space coin, spacecoin-qt, spacecoin-qt guides, wallet, staking, atomicDEX, mm2, atomicDEX Desktop"
+theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-navbar-links:
-  Home: "https://guides.spaceworks.co"
-  Spacecoin:
-    - Site: "https://spaceworks.co/spacecoin"
-    - Explorer: "https://explorer.spaceworks.co"
-    - Mining Pool: "https://mining.spaceworks.co"
+url: "https://guides.spaceworks.co"
+plugins:
+  - jekyll-sitemap
