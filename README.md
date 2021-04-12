@@ -53,7 +53,7 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 #### Data
 
 - [Write A Key Value Pair](Write-A-Key-Value-Pair.md)
-- [Read A Key Value Pair](Read-A-Key_Value-Pair.md)
+- [Read A Key Value Pair](Read-A-Key-Value-Pair.md)
 
 #### Faucet
 
