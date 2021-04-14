@@ -11,7 +11,7 @@ This guide will teach you how to setup AtomicDEX-Desktop for your desired platfo
 
 AtomicDEX is a multicoin lite wallet, as well as a decentralized exchange that utilizes atomic swaps.
 
-For legal reasons, the DEX function in the official version is unavailable to users in `USA, Canada, Hong Kong, Israel, Singapore, Sudan, Austria, and Iran`. There is a version that removes this geoblock that is maintained [here](https://github.com/marmarachain/atomicdex-desktop/releases).
+For legal reasons, the DEX function in the official version is unavailable to users in `USA, Canada, Hong Kong, Israel, Singapore, Sudan, Austria, and Iran`. There is a version that removes this geoblock that is maintained at [github.com/marmarachain/atomicdex-desktop](https://github.com/marmarachain/atomicdex-desktop/releases). Use this version instead of the link in Step 1, if you're in a geoblocked country.
 
 ### Instructions
 
