@@ -36,7 +36,7 @@ Adding a coin or token to AtomicDEX is comprised of multiple parts.
 
 3. Add the coin or token to the `coins` file.
 
-4. Add a 82x82 png logo in `/icons` named `coin.png`.
+4. Add a 82x82 png logo in `/icons` named `ticker.png`.
 
 5. Add an explorer file in `/explorers` named `TICKER` with the coin's explorer.
 
@@ -58,9 +58,9 @@ Adding a coin or token to AtomicDEX is comprised of multiple parts.
 
 2. Add your coin to the coins file at `/assets/config/<version>-coins.json`.
 
-3. Add a 82x82 png logo in `/atomic_defi_design/assets/images/coins`.
+3. Add a 82x82 png logo in `/atomic_defi_design/assets/images/coins` named `ticker.png`.
 
-4. Add the logo file path in `qml.qrc`.
+4. Add the logo file path in the `qml.qrc` file.
 
 5. Submit a pull request with your changes.
 
