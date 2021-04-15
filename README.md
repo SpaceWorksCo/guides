@@ -95,3 +95,7 @@ Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
 
 - [Use MMTools](Use-MMTools.md)
 - [Use MPM](Use-MPM.md)
+
+#### Other
+
+- [Add A Coin To AtomicDEX](Add-A-Coin-To-AtomicDEX.md)
