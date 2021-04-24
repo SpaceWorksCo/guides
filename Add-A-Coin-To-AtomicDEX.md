@@ -21,8 +21,8 @@ To complete the following it will require experience with github and CLI as well
 Adding a coin or token to AtomicDEX is comprised of multiple parts.
 
   1. [Coins File](#coins-file)
-  2. [AtomicDEX-Desktop](atomicdex-desktop)
-  3. [AtomicDEX-Mobile](atomicdex-mobile)
+  2. [AtomicDEX-Desktop](#atomicdex-desktop)
+  3. [AtomicDEX-Mobile](#atomicdex-mobile)
 
 ### Instructions
 

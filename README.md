@@ -1,6 +1,6 @@
 # Home
 
-Guides for [Spacecoin](#Spacecoin) and [AtomicDEX](#AtomicDEX)
+Follow along with the guides to better understand how to use Spacecoin and AtomicDEX. Spacecoin guides include wallets, staking, tokens, inheritance and more. AtomicDEX guides include AtomicDEX-Desktop, AtomicDEX-API, and more.
 
 ## Spacecoin
 
