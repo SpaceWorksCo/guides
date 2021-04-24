@@ -5,6 +5,8 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
+description-heading: false
+
 url: "https://guides.spaceworks.co"
 plugins:
   - jekyll-sitemap
