@@ -19,7 +19,7 @@ You will need SPACE in your wallet. `1 SPACE` will be more than enough.
 
 With Spacecoin-QT the commands will need to be entered in the console. This is accessible at `Help -> Debug Window -> Console`.
 
-All of the token methods can be viewed by running `help` or visiting the [Spacecoin RPC Docs](http://spacecoin-rpc.spaceworks.co).
+All of the token methods can be viewed by running `help` or visiting the [Spacecoin RPC Docs](https://docs.spacecoin.network).
 
 ### Background Information
 
