@@ -4,9 +4,9 @@ This guide will teach you how to get a new coin added to AtomicDEX.
 
 ## Table of Contents
 
-- [Please Note](#Please-Note)
-- [Background Information](#Background-Information)
-- [Instructions](#Instructions)
+- [Please Note](#please-note)
+- [Background Information](#background-information)
+- [Instructions](#instructions)
 
 ### Please Note
 
