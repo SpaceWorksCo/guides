@@ -7,7 +7,11 @@ github:
 description-heading: false
 
 url: "https://guides.spaceworks.co"
+url-pretty: "guides.spaceworks.co"
 plugins:
   - jekyll-sitemap
 
-navbar-img: "/images/header.png"
+title-img: "/images/logo.png"
+navbar-links:
+  Spacecoin: "https://spacecoin.network"
+  AtomicDEX: "https://atomicdex.io"
