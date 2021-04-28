@@ -10,8 +10,15 @@ url: "https://guides.spaceworks.co"
 url-pretty: "guides.spaceworks.co"
 plugins:
   - jekyll-sitemap
+  - jekyll-titles-from-headings
 
 title-img: "/images/logo.png"
 navbar-links:
   Spacecoin: "https://spacecoin.network"
   AtomicDEX: "https://atomicdex.io"
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+  
