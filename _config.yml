@@ -1,7 +1,6 @@
 title: SpaceWorks Guides
 description: Follow along with the guides to better understand how to use Spacecoin and AtomicDEX. Spacecoin guides include wallets, staking, tokens, inheritance and more. AtomicDEX guides include AtomicDEX-Desktop, AtomicDEX-API, and more."
 keywords: "guides, spacecoin guides, atomicDEX guides, spacecoin, space coin, spacecoin-qt, spacecoin-qt guides, wallet, staking, atomicDEX, mm2, atomicDEX Desktop"
-theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
@@ -10,3 +9,5 @@ description-heading: false
 url: "https://guides.spaceworks.co"
 plugins:
   - jekyll-sitemap
+
+navbar-img: "/images/header.png"
