@@ -10,4 +10,4 @@ url: "https://guides.spaceworks.co"
 plugins:
   - jekyll-sitemap
 
-title-img: "/images/header.png"
+navbar-img: "/images/header.png"
