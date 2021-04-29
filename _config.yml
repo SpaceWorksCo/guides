@@ -16,7 +16,8 @@ title-img: "/images/logo.png"
 navbar-links:
   Spacecoin: "https://spacecoin.network"
   AtomicDEX: "https://atomicdex.io"
-  SpaceWorks: "https://spaceworks.co"
+  SpaceWorks:
+    - Site: "https://spaceworks.co"
     - Explorer: "https://explorer.spaceworks.co"
     - Mining Pool: "https://mining.spaceworks.co"
 
