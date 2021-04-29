@@ -16,9 +16,23 @@ title-img: "/images/logo.png"
 navbar-links:
   Spacecoin: "https://spacecoin.network"
   AtomicDEX: "https://atomicdex.io"
+    SpaceWorks: "https://spaceworks.co"
+      - Explorer: "https://explorer.spaceworks.co"
+      - Mining Pool: "https://mining.spaceworks.co"
+
+social-network-links:
+  email: "hello@spaceworks.co"
+  github: SpaceWorksCo
+  twitter: SpaceWorks__
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - GEMFILE
+  - GEMFILE.lock
+  - LICENSE 
 
 titles_from_headings:
   enabled: true
   strip_title: true
   collections: true
-  
