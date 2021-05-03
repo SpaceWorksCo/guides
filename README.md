@@ -21,6 +21,11 @@ Interactive guides for Spacecoin and AtomicDEX.
 - [Run Spacecoin With Docker](Run-Spacecoin-With-Docker.md)
 - [Interact with Spacecoin](Interact-With-Spacecoin.md)
 
+#### Mining
+
+- [Mine With GPU](Mine-With-GPU.md)
+- [Mine With ASIC](Mine-With-ASIC.md)
+
 #### Staking
 
 - [Stake With Spacecoind](Stake-With-Spacecoind.md)
