@@ -18,7 +18,7 @@ Mining pools, as well as links to ASIC rentals can be found at [spacecoin.networ
 
 3. Get the pool's URL and port.
 
-  Example: `stratum.spaceworks.co:3393`
+    Example: `stratum.spaceworks.co:3393`
 
 4. Download a [spacecoin wallet](https://spacecoin.network/#wallets) and get an address.
 

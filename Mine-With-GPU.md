@@ -18,7 +18,7 @@ Miners and mining pools can be found at [spacecoin.network/mine](https://spaceco
 
 3. Get the pool's URL and port.
 
-  Example: `stratum.spaceworks.co:3393`
+    Example: `stratum.spaceworks.co:3393`
 
 4. Download a [spacecoin wallet](https://spacecoin.network/#wallets) and get an address.
 
