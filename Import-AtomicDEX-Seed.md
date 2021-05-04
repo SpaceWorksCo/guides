@@ -2,7 +2,7 @@
 
 This guide will teach you how to import an address generated with AtomicDEX seed.
 
-This is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+This is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 

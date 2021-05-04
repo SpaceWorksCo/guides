@@ -2,7 +2,7 @@
 
 This guide will teach you how to bootstrap the SPACE blockchain for a faster sync.
 
-This is intended for [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+This is intended for [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ If Spacecoind or Spacecoin-QT is already running, stop it before continuing.
 
 5. Paste the folders in the data directory, replacing the existing `blocks` and `chainstate` folders.
 
-6. Start [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+6. Start [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 Your SPACE daemon should now finish syncing very quickly.
 

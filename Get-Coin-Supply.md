@@ -2,7 +2,7 @@
 
 This guide will teach you how to get the coin supply of the SPACE blockchain.
 
-Coin supply is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+Coin supply is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 

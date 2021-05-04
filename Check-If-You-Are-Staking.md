@@ -2,7 +2,7 @@
 
 This guide will teach you how to check to see if you are staking.
 
-Staking is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+Staking is available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 
