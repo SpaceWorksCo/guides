@@ -2,7 +2,7 @@
 
 This guide will teach you how to trade tokens on the SPACE blockchain.
 
-Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+Tokens are available with [Spacecoind](https://github.com/spaceworksco/spacecoin) or [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 

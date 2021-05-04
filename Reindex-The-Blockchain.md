@@ -2,7 +2,7 @@
 
 This guide will teach you how to reindex the SPACE blockchain.
 
-This applies to both [Spacecoind](https://github.com/spaceworksco/spacecoin) and [Spacecoin-QT](https://spaceworks.co/spacecoin/wallets#spacecoin-qt).
+This applies to both [Spacecoind](https://github.com/spaceworksco/spacecoin) and [Spacecoin-QT](https://spacecoin.network/#wallets).
 
 ## Table of Contents
 
