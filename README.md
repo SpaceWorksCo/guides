@@ -103,4 +103,5 @@ Interactive guides for Spacecoin and AtomicDEX.
 
 #### Other
 
+- [Use A Private Key With AtomicDEX](Use-A-Private-Key-With-AtomicDEX.md)
 - [Add A Coin To AtomicDEX](Add-A-Coin-To-AtomicDEX.md)
