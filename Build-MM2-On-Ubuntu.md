@@ -31,11 +31,11 @@ If you'd like to simplify this process, [use MMTools](Use-MMTools.md).
 
 5. Install specific rustup nightly:
 
-    `rustup install nightly-2020-10-25`
+    `rustup install nightly-2021-05-17`
 
 6. Make it the default:
 
-    `rustup default nightly-2020-10-25`
+    `rustup default nightly-2021-05-17`
 
 7. Add rustfmt-preview:
 
