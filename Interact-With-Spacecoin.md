@@ -42,4 +42,4 @@ If it is not, you can:
 
     `./spacecoin-cli setgenerate true 0`
 
-To see all of the commands available use `./spacecoin-cli help` or visit the [Spacecoin RPC Docs](https://spacecoin-rpc.spaceworks.co).
+To see all of the commands available use `./spacecoin-cli help` or visit the [Spacecoin RPC Docs](https://docs.spacecoin.network).
